@@ -1,0 +1,15 @@
+- name: This play will demo apt module
+  hosts: all
+  tasks:
+    - name: Install vim editor
+      apt: name=vim state=latest update_cache=yes
+    
+    - name: Install tree editor
+      apt: name=tree state=latest update_cache=yes
+
+- name: This to debug
+  hosts: server1
+  tasks:
+    - name: This is debug
+      debug: msg="test"
+ 

@@ -1,0 +1,1061 @@
+2018-06-27 12:36:10,293 p=8298 u=root |  PLAY [Installs,Configures and Deploys Web page in ngnix web server] ************
+2018-06-27 12:36:10,304 p=8298 u=root |  TASK [setup] *******************************************************************
+2018-06-27 12:36:11,005 p=8298 u=root |  [0;32mok: [ubuntu2][0m
+2018-06-27 12:36:11,006 p=8298 u=root |  [0;32mok: [ubuntu1][0m
+2018-06-27 12:36:15,557 p=8298 u=root |  [0;32mok: [centos2][0m
+2018-06-27 12:36:15,566 p=8298 u=root |  [0;32mok: [centos1][0m
+2018-06-27 12:36:15,569 p=8298 u=root |  TASK [Install nginx webserver] *************************************************
+2018-06-27 12:36:15,836 p=8298 u=root |  [0;36mskipping: [centos2][0m
+2018-06-27 12:36:15,837 p=8298 u=root |  [0;36mskipping: [centos1][0m
+2018-06-27 12:36:15,944 p=8298 u=root |  [0;31mfatal: [ubuntu1]: FAILED! => {"changed": false, "failed": true, "msg": "Boolean ye not in either boolean list"}[0m
+2018-06-27 12:36:15,948 p=8298 u=root |  [0;31mfatal: [ubuntu2]: FAILED! => {"changed": false, "failed": true, "msg": "Boolean ye not in either boolean list"}[0m
+2018-06-27 12:36:15,951 p=8298 u=root |  TASK [Configure web root folder] ***********************************************
+2018-06-27 12:36:15,982 p=8298 u=root |  [0;36mskipping: [centos1][0m
+2018-06-27 12:36:15,984 p=8298 u=root |  [0;36mskipping: [centos2][0m
+2018-06-27 12:36:15,985 p=8298 u=root |  TASK [Restart ngnix web server] ************************************************
+2018-06-27 12:36:16,014 p=8298 u=root |  [0;36mskipping: [centos1][0m
+2018-06-27 12:36:16,016 p=8298 u=root |  [0;36mskipping: [centos2][0m
+2018-06-27 12:36:16,017 p=8298 u=root |  TASK [Create the web root folder] **********************************************
+2018-06-27 12:36:16,726 p=8298 u=root |  [0;33mchanged: [centos1][0m
+2018-06-27 12:36:16,727 p=8298 u=root |  [1;35m [WARNING]: Consider using file module with state=directory rather than running mkdir
+[0m
+2018-06-27 12:36:16,728 p=8298 u=root |  [0;33mchanged: [centos2][0m
+2018-06-27 12:36:16,730 p=8298 u=root |  TASK [deploy our custom html page in nginx web server] *************************
+2018-06-27 12:36:17,986 p=8298 u=root |  [0;33mchanged: [centos1][0m
+2018-06-27 12:36:17,989 p=8298 u=root |  [0;33mchanged: [centos2][0m
+2018-06-27 12:36:17,990 p=8298 u=root |  TASK [restart] *****************************************************************
+2018-06-27 12:36:18,021 p=8298 u=root |  [0;36mskipping: [centos1][0m
+2018-06-27 12:36:18,023 p=8298 u=root |  [0;36mskipping: [centos2][0m
+2018-06-27 12:36:18,025 p=8298 u=root |  PLAY RECAP *********************************************************************
+2018-06-27 12:36:18,025 p=8298 u=root |  centos1                    : ok=3    changed=2    unreachable=0    failed=0   
+2018-06-27 12:36:18,025 p=8298 u=root |  centos2                    : ok=3    changed=2    unreachable=0    failed=0   
+2018-06-27 12:36:18,026 p=8298 u=root |  ubuntu1                    : ok=1    changed=0    unreachable=0    failed=1   
+2018-06-27 12:36:18,026 p=8298 u=root |  ubuntu2                    : ok=1    changed=0    unreachable=0    failed=1   
+2018-06-27 12:37:03,810 p=8595 u=root |  PLAY [Installs,Configures and Deploys Web page in ngnix web server] ************
+2018-06-27 12:37:03,821 p=8595 u=root |  TASK [setup] *******************************************************************
+2018-06-27 12:37:04,028 p=8595 u=root |  [0;32mok: [ubuntu1][0m
+2018-06-27 12:37:04,029 p=8595 u=root |  [0;32mok: [ubuntu2][0m
+2018-06-27 12:37:08,898 p=8595 u=root |  [0;32mok: [centos1][0m
+2018-06-27 12:37:08,905 p=8595 u=root |  [0;32mok: [centos2][0m
+2018-06-27 12:37:08,907 p=8595 u=root |  TASK [Install nginx webserver] *************************************************
+2018-06-27 12:37:08,937 p=8595 u=root |  [0;36mskipping: [centos1][0m
+2018-06-27 12:37:08,943 p=8595 u=root |  [0;36mskipping: [centos2][0m
+2018-06-27 12:38:31,834 p=8595 u=root |  [0;33mchanged: [ubuntu1][0m
+2018-06-27 12:38:42,572 p=8595 u=root |  [0;33mchanged: [ubuntu2][0m
+2018-06-27 12:38:42,576 p=8595 u=root |  TASK [Configure web root folder] ***********************************************
+2018-06-27 12:38:42,607 p=8595 u=root |  [0;36mskipping: [centos1][0m
+2018-06-27 12:38:42,609 p=8595 u=root |  [0;36mskipping: [centos2][0m
+2018-06-27 12:38:42,774 p=8595 u=root |  [0;33mchanged: [ubuntu1][0m
+2018-06-27 12:38:42,775 p=8595 u=root |  [0;33mchanged: [ubuntu2][0m
+2018-06-27 12:38:42,777 p=8595 u=root |  TASK [Restart ngnix web server] ************************************************
+2018-06-27 12:38:42,807 p=8595 u=root |  [0;36mskipping: [centos1][0m
+2018-06-27 12:38:42,817 p=8595 u=root |  [0;36mskipping: [centos2][0m
+2018-06-27 12:38:44,092 p=8595 u=root |  [0;33mchanged: [ubuntu1][0m
+2018-06-27 12:38:44,093 p=8595 u=root |  [0;33mchanged: [ubuntu2][0m
+2018-06-27 12:38:44,095 p=8595 u=root |  TASK [Create the web root folder] **********************************************
+2018-06-27 12:38:44,224 p=8595 u=root |  [0;33mchanged: [ubuntu1][0m
+2018-06-27 12:38:44,225 p=8595 u=root |  [1;35m [WARNING]: Consider using file module with state=directory rather than running mkdir
+[0m
+2018-06-27 12:38:44,228 p=8595 u=root |  [0;33mchanged: [ubuntu2][0m
+2018-06-27 12:38:44,829 p=8595 u=root |  [0;33mchanged: [centos2][0m
+2018-06-27 12:38:44,835 p=8595 u=root |  [0;33mchanged: [centos1][0m
+2018-06-27 12:38:44,837 p=8595 u=root |  TASK [deploy our custom html page in nginx web server] *************************
+2018-06-27 12:38:45,026 p=8595 u=root |  [0;33mchanged: [ubuntu1][0m
+2018-06-27 12:38:45,034 p=8595 u=root |  [0;33mchanged: [ubuntu2][0m
+2018-06-27 12:38:45,060 p=8595 u=root |  [0;32mok: [centos1][0m
+2018-06-27 12:38:45,069 p=8595 u=root |  [0;32mok: [centos2][0m
+2018-06-27 12:38:45,072 p=8595 u=root |  TASK [restart] *****************************************************************
+2018-06-27 12:38:45,102 p=8595 u=root |  [0;36mskipping: [centos1][0m
+2018-06-27 12:38:45,104 p=8595 u=root |  [0;36mskipping: [centos2][0m
+2018-06-27 12:38:46,310 p=8595 u=root |  [0;33mchanged: [ubuntu1][0m
+2018-06-27 12:38:46,315 p=8595 u=root |  [0;33mchanged: [ubuntu2][0m
+2018-06-27 12:38:46,317 p=8595 u=root |  PLAY RECAP *********************************************************************
+2018-06-27 12:38:46,317 p=8595 u=root |  centos1                    : ok=3    changed=1    unreachable=0    failed=0   
+2018-06-27 12:38:46,318 p=8595 u=root |  centos2                    : ok=3    changed=1    unreachable=0    failed=0   
+2018-06-27 12:38:46,318 p=8595 u=root |  ubuntu1                    : ok=7    changed=6    unreachable=0    failed=0   
+2018-06-27 12:38:46,318 p=8595 u=root |  ubuntu2                    : ok=7    changed=6    unreachable=0    failed=0   
+2018-06-27 12:40:30,870 p=11017 u=root |  PLAY [Installs,Configures and Deploys Web page in ngnix web server] ************
+2018-06-27 12:40:30,881 p=11017 u=root |  TASK [setup] *******************************************************************
+2018-06-27 12:40:31,702 p=11017 u=root |  [0;32mok: [ubuntu1][0m
+2018-06-27 12:40:31,741 p=11017 u=root |  [0;32mok: [ubuntu2][0m
+2018-06-27 12:40:36,021 p=11017 u=root |  [0;32mok: [centos1][0m
+2018-06-27 12:40:36,022 p=11017 u=root |  [0;32mok: [centos2][0m
+2018-06-27 12:40:36,024 p=11017 u=root |  TASK [Install nginx webserver] *************************************************
+2018-06-27 12:40:36,053 p=11017 u=root |  [0;36mskipping: [centos1][0m
+2018-06-27 12:40:36,056 p=11017 u=root |  [0;36mskipping: [centos2][0m
+2018-06-27 12:40:43,615 p=11017 u=root |  [0;32mok: [ubuntu2][0m
+2018-06-27 12:40:43,728 p=11017 u=root |  [0;32mok: [ubuntu1][0m
+2018-06-27 12:40:43,730 p=11017 u=root |  TASK [Configure web root folder] ***********************************************
+2018-06-27 12:40:43,766 p=11017 u=root |  [0;36mskipping: [centos2][0m
+2018-06-27 12:40:43,767 p=11017 u=root |  [0;36mskipping: [centos1][0m
+2018-06-27 12:40:43,891 p=11017 u=root |  [0;32mok: [ubuntu1][0m
+2018-06-27 12:40:43,898 p=11017 u=root |  [0;32mok: [ubuntu2][0m
+2018-06-27 12:40:43,900 p=11017 u=root |  TASK [Restart ngnix web server] ************************************************
+2018-06-27 12:40:43,929 p=11017 u=root |  [0;36mskipping: [centos1][0m
+2018-06-27 12:40:43,931 p=11017 u=root |  [0;36mskipping: [centos2][0m
+2018-06-27 12:40:45,139 p=11017 u=root |  [0;33mchanged: [ubuntu2][0m
+2018-06-27 12:40:45,139 p=11017 u=root |  [0;33mchanged: [ubuntu1][0m
+2018-06-27 12:40:45,141 p=11017 u=root |  TASK [Create the web root folder] **********************************************
+2018-06-27 12:40:45,271 p=11017 u=root |  [0;33mchanged: [ubuntu1][0m
+2018-06-27 12:40:45,277 p=11017 u=root |  [0;33mchanged: [centos1][0m
+2018-06-27 12:40:45,279 p=11017 u=root |  [0;33mchanged: [ubuntu2][0m
+2018-06-27 12:40:45,294 p=11017 u=root |  [0;33mchanged: [centos2][0m
+2018-06-27 12:40:45,296 p=11017 u=root |  TASK [deploy our custom html page in nginx web server] *************************
+2018-06-27 12:40:45,492 p=11017 u=root |  [0;32mok: [ubuntu2][0m
+2018-06-27 12:40:45,496 p=11017 u=root |  [0;32mok: [ubuntu1][0m
+2018-06-27 12:40:45,498 p=11017 u=root |  [0;32mok: [centos1][0m
+2018-06-27 12:40:45,509 p=11017 u=root |  [0;32mok: [centos2][0m
+2018-06-27 12:40:45,512 p=11017 u=root |  TASK [restart] *****************************************************************
+2018-06-27 12:40:45,543 p=11017 u=root |  [0;36mskipping: [centos1][0m
+2018-06-27 12:40:45,544 p=11017 u=root |  [0;36mskipping: [centos2][0m
+2018-06-27 12:40:46,748 p=11017 u=root |  [0;33mchanged: [ubuntu1][0m
+2018-06-27 12:40:46,758 p=11017 u=root |  [0;33mchanged: [ubuntu2][0m
+2018-06-27 12:40:46,759 p=11017 u=root |  PLAY RECAP *********************************************************************
+2018-06-27 12:40:46,760 p=11017 u=root |  centos1                    : ok=3    changed=1    unreachable=0    failed=0   
+2018-06-27 12:40:46,760 p=11017 u=root |  centos2                    : ok=3    changed=1    unreachable=0    failed=0   
+2018-06-27 12:40:46,760 p=11017 u=root |  ubuntu1                    : ok=7    changed=3    unreachable=0    failed=0   
+2018-06-27 12:40:46,760 p=11017 u=root |  ubuntu2                    : ok=7    changed=3    unreachable=0    failed=0   
+2018-06-27 13:24:59,994 p=12280 u=root |  PLAY [Installs,Configures and Deploys Web page in ngnix web server] ************
+2018-06-27 13:25:00,008 p=12280 u=root |  TASK [setup] *******************************************************************
+2018-06-27 13:25:00,541 p=12280 u=root |  [0;32mok: [ubuntu1][0m
+2018-06-27 13:25:00,575 p=12280 u=root |  [0;32mok: [ubuntu2][0m
+2018-06-27 13:25:05,127 p=12280 u=root |  [0;32mok: [centos1][0m
+2018-06-27 13:25:05,153 p=12280 u=root |  [0;32mok: [centos2][0m
+2018-06-27 13:25:05,156 p=12280 u=root |  TASK [Install nginx webserver] *************************************************
+2018-06-27 13:25:05,186 p=12280 u=root |  [0;36mskipping: [centos1][0m
+2018-06-27 13:25:05,190 p=12280 u=root |  [0;36mskipping: [centos2][0m
+2018-06-27 13:25:11,237 p=12280 u=root |  [0;32mok: [ubuntu2][0m
+2018-06-27 13:25:13,088 p=12280 u=root |  [0;32mok: [ubuntu1][0m
+2018-06-27 13:25:13,090 p=12280 u=root |  TASK [Install nginx webserver on Centos] ***************************************
+2018-06-27 13:25:13,122 p=12280 u=root |  [0;36mskipping: [centos1][0m
+2018-06-27 13:25:13,124 p=12280 u=root |  [0;36mskipping: [centos2][0m
+2018-06-27 13:25:13,135 p=12280 u=root |  [0;36mskipping: [ubuntu2][0m
+2018-06-27 13:25:13,135 p=12280 u=root |  [0;36mskipping: [ubuntu1][0m
+2018-06-27 13:25:13,137 p=12280 u=root |  TASK [Configure web root folder] ***********************************************
+2018-06-27 13:25:13,166 p=12280 u=root |  [0;36mskipping: [centos1][0m
+2018-06-27 13:25:13,173 p=12280 u=root |  [0;36mskipping: [centos2][0m
+2018-06-27 13:25:13,300 p=12280 u=root |  [0;32mok: [ubuntu2][0m
+2018-06-27 13:25:13,303 p=12280 u=root |  [0;32mok: [ubuntu1][0m
+2018-06-27 13:25:13,304 p=12280 u=root |  TASK [Restart ngnix web server] ************************************************
+2018-06-27 13:25:13,334 p=12280 u=root |  [0;36mskipping: [centos1][0m
+2018-06-27 13:25:13,336 p=12280 u=root |  [0;36mskipping: [centos2][0m
+2018-06-27 13:25:14,537 p=12280 u=root |  [0;33mchanged: [ubuntu1][0m
+2018-06-27 13:25:14,539 p=12280 u=root |  [0;33mchanged: [ubuntu2][0m
+2018-06-27 13:25:14,540 p=12280 u=root |  TASK [Restart ngnix web server on centos] **************************************
+2018-06-27 13:25:14,581 p=12280 u=root |  [0;36mskipping: [ubuntu1][0m
+2018-06-27 13:25:14,581 p=12280 u=root |  [0;36mskipping: [ubuntu2][0m
+2018-06-27 13:25:14,697 p=12280 u=root |  [0;31mfatal: [centos2]: FAILED! => {"changed": false, "failed": true, "msg": "no service or tool found for: nginx"}[0m
+2018-06-27 13:25:14,698 p=12280 u=root |  [0;31mfatal: [centos1]: FAILED! => {"changed": false, "failed": true, "msg": "no service or tool found for: nginx"}[0m
+2018-06-27 13:25:14,699 p=12280 u=root |  TASK [Create the web root folder] **********************************************
+2018-06-27 13:25:14,807 p=12280 u=root |  [0;32mok: [ubuntu1][0m
+2018-06-27 13:25:14,809 p=12280 u=root |  [0;32mok: [ubuntu2][0m
+2018-06-27 13:25:14,811 p=12280 u=root |  TASK [deploy our custom html page in nginx web server] *************************
+2018-06-27 13:25:14,975 p=12280 u=root |  [0;32mok: [ubuntu1][0m
+2018-06-27 13:25:14,975 p=12280 u=root |  [0;32mok: [ubuntu2][0m
+2018-06-27 13:25:14,977 p=12280 u=root |  TASK [restart] *****************************************************************
+2018-06-27 13:25:16,201 p=12280 u=root |  [0;33mchanged: [ubuntu2][0m
+2018-06-27 13:25:16,207 p=12280 u=root |  [0;33mchanged: [ubuntu1][0m
+2018-06-27 13:25:16,209 p=12280 u=root |  TASK [Restart ngnix web server on centos] **************************************
+2018-06-27 13:25:16,240 p=12280 u=root |  [0;36mskipping: [ubuntu1][0m
+2018-06-27 13:25:16,243 p=12280 u=root |  [0;36mskipping: [ubuntu2][0m
+2018-06-27 13:25:16,244 p=12280 u=root |  PLAY RECAP *********************************************************************
+2018-06-27 13:25:16,244 p=12280 u=root |  centos1                    : ok=1    changed=0    unreachable=0    failed=1   
+2018-06-27 13:25:16,245 p=12280 u=root |  centos2                    : ok=1    changed=0    unreachable=0    failed=1   
+2018-06-27 13:25:16,245 p=12280 u=root |  ubuntu1                    : ok=7    changed=2    unreachable=0    failed=0   
+2018-06-27 13:25:16,245 p=12280 u=root |  ubuntu2                    : ok=7    changed=2    unreachable=0    failed=0   
+2018-06-27 13:27:05,312 p=13388 u=root |  PLAY [Installs,Configures and Deploys Web page in ngnix web server] ************
+2018-06-27 13:27:05,325 p=13388 u=root |  TASK [setup] *******************************************************************
+2018-06-27 13:27:05,855 p=13388 u=root |  [0;32mok: [ubuntu2][0m
+2018-06-27 13:27:05,876 p=13388 u=root |  [0;32mok: [ubuntu1][0m
+2018-06-27 13:27:10,495 p=13388 u=root |  [0;32mok: [centos2][0m
+2018-06-27 13:27:10,534 p=13388 u=root |  [0;32mok: [centos1][0m
+2018-06-27 13:27:10,537 p=13388 u=root |  TASK [Install nginx webserver] *************************************************
+2018-06-27 13:27:10,567 p=13388 u=root |  [0;36mskipping: [centos1][0m
+2018-06-27 13:27:10,574 p=13388 u=root |  [0;36mskipping: [centos2][0m
+2018-06-27 13:27:14,018 p=13388 u=root |  [0;32mok: [ubuntu2][0m
+2018-06-27 13:27:18,796 p=13388 u=root |  [0;32mok: [ubuntu1][0m
+2018-06-27 13:27:18,798 p=13388 u=root |  TASK [Install epel webserver on Centos] ****************************************
+2018-06-27 13:27:18,830 p=13388 u=root |  [0;36mskipping: [centos2][0m
+2018-06-27 13:27:18,833 p=13388 u=root |  [0;36mskipping: [centos1][0m
+2018-06-27 13:27:18,837 p=13388 u=root |  [0;36mskipping: [ubuntu1][0m
+2018-06-27 13:27:18,839 p=13388 u=root |  [0;36mskipping: [ubuntu2][0m
+2018-06-27 13:27:18,840 p=13388 u=root |  TASK [Install nginx webserver on Centos] ***************************************
+2018-06-27 13:27:18,879 p=13388 u=root |  [0;36mskipping: [ubuntu1][0m
+2018-06-27 13:27:18,882 p=13388 u=root |  [0;36mskipping: [ubuntu2][0m
+2018-06-27 13:27:19,518 p=13388 u=root |  [0;31mfatal: [centos2]: FAILED! => {"changed": false, "cmd": "apt-get update '&&' apt-get install python-apt -y -q --force-yes", "failed": true, "msg": "/bin/sh: apt-get: command not found", "rc": 127, "stderr": "/bin/sh: apt-get: command not found\n", "stdout": "", "stdout_lines": []}[0m
+2018-06-27 13:27:19,534 p=13388 u=root |  [0;31mfatal: [centos1]: FAILED! => {"changed": false, "cmd": "apt-get update '&&' apt-get install python-apt -y -q --force-yes", "failed": true, "msg": "/bin/sh: apt-get: command not found", "rc": 127, "stderr": "/bin/sh: apt-get: command not found\n", "stdout": "", "stdout_lines": []}[0m
+2018-06-27 13:27:19,536 p=13388 u=root |  TASK [Configure web root folder] ***********************************************
+2018-06-27 13:27:19,687 p=13388 u=root |  [0;32mok: [ubuntu1][0m
+2018-06-27 13:27:19,687 p=13388 u=root |  [0;32mok: [ubuntu2][0m
+2018-06-27 13:27:19,689 p=13388 u=root |  TASK [Restart ngnix web server] ************************************************
+2018-06-27 13:27:20,915 p=13388 u=root |  [0;33mchanged: [ubuntu2][0m
+2018-06-27 13:27:20,916 p=13388 u=root |  [0;33mchanged: [ubuntu1][0m
+2018-06-27 13:27:20,917 p=13388 u=root |  TASK [Restart ngnix web server on centos] **************************************
+2018-06-27 13:27:20,949 p=13388 u=root |  [0;36mskipping: [ubuntu1][0m
+2018-06-27 13:27:20,951 p=13388 u=root |  [0;36mskipping: [ubuntu2][0m
+2018-06-27 13:27:20,952 p=13388 u=root |  TASK [Create the web root folder] **********************************************
+2018-06-27 13:27:21,064 p=13388 u=root |  [0;32mok: [ubuntu1][0m
+2018-06-27 13:27:21,064 p=13388 u=root |  [0;32mok: [ubuntu2][0m
+2018-06-27 13:27:21,066 p=13388 u=root |  TASK [deploy our custom html page in nginx web server] *************************
+2018-06-27 13:27:21,228 p=13388 u=root |  [0;32mok: [ubuntu2][0m
+2018-06-27 13:27:21,228 p=13388 u=root |  [0;32mok: [ubuntu1][0m
+2018-06-27 13:27:21,230 p=13388 u=root |  TASK [restart] *****************************************************************
+2018-06-27 13:27:22,462 p=13388 u=root |  [0;33mchanged: [ubuntu1][0m
+2018-06-27 13:27:22,466 p=13388 u=root |  [0;33mchanged: [ubuntu2][0m
+2018-06-27 13:27:22,468 p=13388 u=root |  TASK [Restart ngnix web server on centos] **************************************
+2018-06-27 13:27:22,498 p=13388 u=root |  [0;36mskipping: [ubuntu1][0m
+2018-06-27 13:27:22,500 p=13388 u=root |  [0;36mskipping: [ubuntu2][0m
+2018-06-27 13:27:22,502 p=13388 u=root |  PLAY RECAP *********************************************************************
+2018-06-27 13:27:22,502 p=13388 u=root |  centos1                    : ok=1    changed=0    unreachable=0    failed=1   
+2018-06-27 13:27:22,502 p=13388 u=root |  centos2                    : ok=1    changed=0    unreachable=0    failed=1   
+2018-06-27 13:27:22,502 p=13388 u=root |  ubuntu1                    : ok=7    changed=2    unreachable=0    failed=0   
+2018-06-27 13:27:22,502 p=13388 u=root |  ubuntu2                    : ok=7    changed=2    unreachable=0    failed=0   
+2018-06-27 13:27:49,940 p=14485 u=root |  PLAY [Installs,Configures and Deploys Web page in ngnix web server] ************
+2018-06-27 13:27:49,953 p=14485 u=root |  TASK [setup] *******************************************************************
+2018-06-27 13:27:50,362 p=14485 u=root |  [0;32mok: [ubuntu2][0m
+2018-06-27 13:27:50,393 p=14485 u=root |  [0;32mok: [ubuntu1][0m
+2018-06-27 13:27:55,016 p=14485 u=root |  [0;32mok: [centos2][0m
+2018-06-27 13:27:55,085 p=14485 u=root |  [0;32mok: [centos1][0m
+2018-06-27 13:27:55,088 p=14485 u=root |  TASK [Install nginx webserver] *************************************************
+2018-06-27 13:27:55,120 p=14485 u=root |  [0;36mskipping: [centos1][0m
+2018-06-27 13:27:55,123 p=14485 u=root |  [0;36mskipping: [centos2][0m
+2018-06-27 13:27:58,471 p=14485 u=root |  [0;32mok: [ubuntu1][0m
+2018-06-27 13:28:03,717 p=14485 u=root |  [0;32mok: [ubuntu2][0m
+2018-06-27 13:28:03,719 p=14485 u=root |  TASK [Install epel webserver on Centos] ****************************************
+2018-06-27 13:28:03,750 p=14485 u=root |  [0;36mskipping: [centos1][0m
+2018-06-27 13:28:03,759 p=14485 u=root |  [0;36mskipping: [centos2][0m
+2018-06-27 13:28:03,759 p=14485 u=root |  [0;36mskipping: [ubuntu1][0m
+2018-06-27 13:28:03,761 p=14485 u=root |  [0;36mskipping: [ubuntu2][0m
+2018-06-27 13:28:03,763 p=14485 u=root |  TASK [Install nginx webserver on Centos] ***************************************
+2018-06-27 13:28:03,803 p=14485 u=root |  [0;36mskipping: [ubuntu2][0m
+2018-06-27 13:28:03,804 p=14485 u=root |  [0;36mskipping: [ubuntu1][0m
+2018-06-27 13:34:35,828 p=14485 u=root |  [0;31mfatal: [centos1]: FAILED! => {"changed": false, "failed": true, "msg": "No Package matching 'nginx' found available, installed or updated", "rc": 0, "results": []}[0m
+2018-06-27 13:41:38,968 p=14485 u=root |  [0;31mfatal: [centos2]: FAILED! => {"changed": false, "failed": true, "msg": "No Package matching 'nginx' found available, installed or updated", "rc": 0, "results": []}[0m
+2018-06-27 13:41:38,971 p=14485 u=root |  TASK [Configure web root folder] ***********************************************
+2018-06-27 13:41:39,254 p=14485 u=root |  [0;32mok: [ubuntu1][0m
+2018-06-27 13:41:39,255 p=14485 u=root |  [0;32mok: [ubuntu2][0m
+2018-06-27 13:41:39,257 p=14485 u=root |  TASK [Restart ngnix web server] ************************************************
+2018-06-27 13:41:40,478 p=14485 u=root |  [0;33mchanged: [ubuntu1][0m
+2018-06-27 13:41:40,480 p=14485 u=root |  [0;33mchanged: [ubuntu2][0m
+2018-06-27 13:41:40,482 p=14485 u=root |  TASK [Restart ngnix web server on centos] **************************************
+2018-06-27 13:41:40,512 p=14485 u=root |  [0;36mskipping: [ubuntu1][0m
+2018-06-27 13:41:40,514 p=14485 u=root |  [0;36mskipping: [ubuntu2][0m
+2018-06-27 13:41:40,516 p=14485 u=root |  TASK [Create the web root folder] **********************************************
+2018-06-27 13:41:40,623 p=14485 u=root |  [0;32mok: [ubuntu1][0m
+2018-06-27 13:41:40,628 p=14485 u=root |  [0;32mok: [ubuntu2][0m
+2018-06-27 13:41:40,631 p=14485 u=root |  TASK [deploy our custom html page in nginx web server] *************************
+2018-06-27 13:41:40,798 p=14485 u=root |  [0;32mok: [ubuntu1][0m
+2018-06-27 13:41:40,799 p=14485 u=root |  [0;32mok: [ubuntu2][0m
+2018-06-27 13:41:40,801 p=14485 u=root |  TASK [restart] *****************************************************************
+2018-06-27 13:41:42,031 p=14485 u=root |  [0;33mchanged: [ubuntu2][0m
+2018-06-27 13:41:42,041 p=14485 u=root |  [0;33mchanged: [ubuntu1][0m
+2018-06-27 13:41:42,042 p=14485 u=root |  TASK [Restart ngnix web server on centos] **************************************
+2018-06-27 13:41:42,073 p=14485 u=root |  [0;36mskipping: [ubuntu1][0m
+2018-06-27 13:41:42,076 p=14485 u=root |  [0;36mskipping: [ubuntu2][0m
+2018-06-27 13:41:42,078 p=14485 u=root |  PLAY RECAP *********************************************************************
+2018-06-27 13:41:42,078 p=14485 u=root |  centos1                    : ok=1    changed=0    unreachable=0    failed=1   
+2018-06-27 13:41:42,078 p=14485 u=root |  centos2                    : ok=1    changed=0    unreachable=0    failed=1   
+2018-06-27 13:41:42,078 p=14485 u=root |  ubuntu1                    : ok=7    changed=2    unreachable=0    failed=0   
+2018-06-27 13:41:42,078 p=14485 u=root |  ubuntu2                    : ok=7    changed=2    unreachable=0    failed=0   
+2018-06-27 14:23:08,278 p=15853 u=root |  PLAY [Installs,Configures and Deploys Web page in ngnix web server] ************
+2018-06-27 14:23:08,289 p=15853 u=root |  TASK [setup] *******************************************************************
+2018-06-27 14:23:08,806 p=15853 u=root |  [0;32mok: [ubuntu2][0m
+2018-06-27 14:23:08,842 p=15853 u=root |  [0;32mok: [ubuntu1][0m
+2018-06-27 14:23:13,398 p=15853 u=root |  [0;32mok: [centos2][0m
+2018-06-27 14:23:13,532 p=15853 u=root |  [0;32mok: [centos1][0m
+2018-06-27 14:23:13,536 p=15853 u=root |  TASK [Install nginx webserver] *************************************************
+2018-06-27 14:23:13,567 p=15853 u=root |  [0;36mskipping: [centos1][0m
+2018-06-27 14:23:13,569 p=15853 u=root |  [0;36mskipping: [centos2][0m
+2018-06-27 14:23:21,523 p=15853 u=root |  [0;32mok: [ubuntu1][0m
+2018-06-27 14:23:21,850 p=15853 u=root |  [0;32mok: [ubuntu2][0m
+2018-06-27 14:23:21,852 p=15853 u=root |  TASK [Install epel webserver on Centos] ****************************************
+2018-06-27 14:23:21,894 p=15853 u=root |  [0;36mskipping: [ubuntu1][0m
+2018-06-27 14:23:21,895 p=15853 u=root |  [0;36mskipping: [ubuntu2][0m
+2018-06-27 14:23:32,989 p=15853 u=root |  [0;33mchanged: [centos1][0m
+2018-06-27 14:23:33,328 p=15853 u=root |  [0;33mchanged: [centos2][0m
+2018-06-27 14:23:33,331 p=15853 u=root |  TASK [Configure web root folder] ***********************************************
+2018-06-27 14:23:33,363 p=15853 u=root |  [0;36mskipping: [centos1][0m
+2018-06-27 14:23:33,365 p=15853 u=root |  [0;36mskipping: [centos2][0m
+2018-06-27 14:23:33,496 p=15853 u=root |  [0;32mok: [ubuntu1][0m
+2018-06-27 14:23:33,497 p=15853 u=root |  [0;32mok: [ubuntu2][0m
+2018-06-27 14:23:33,499 p=15853 u=root |  TASK [Restart ngnix web server] ************************************************
+2018-06-27 14:23:33,531 p=15853 u=root |  [0;36mskipping: [centos2][0m
+2018-06-27 14:23:33,533 p=15853 u=root |  [0;36mskipping: [centos1][0m
+2018-06-27 14:23:34,735 p=15853 u=root |  [0;33mchanged: [ubuntu2][0m
+2018-06-27 14:23:34,737 p=15853 u=root |  [0;33mchanged: [ubuntu1][0m
+2018-06-27 14:23:34,739 p=15853 u=root |  TASK [Create the web root folder] **********************************************
+2018-06-27 14:23:34,861 p=15853 u=root |  [0;32mok: [ubuntu1][0m
+2018-06-27 14:23:34,874 p=15853 u=root |  [0;32mok: [ubuntu2][0m
+2018-06-27 14:23:34,875 p=15853 u=root |  [0;32mok: [centos1][0m
+2018-06-27 14:23:34,875 p=15853 u=root |  [0;32mok: [centos2][0m
+2018-06-27 14:23:34,877 p=15853 u=root |  TASK [deploy our custom html page in nginx web server] *************************
+2018-06-27 14:23:35,066 p=15853 u=root |  [0;32mok: [ubuntu1][0m
+2018-06-27 14:23:35,071 p=15853 u=root |  [0;32mok: [ubuntu2][0m
+2018-06-27 14:23:35,086 p=15853 u=root |  [0;32mok: [centos2][0m
+2018-06-27 14:23:35,092 p=15853 u=root |  [0;32mok: [centos1][0m
+2018-06-27 14:23:35,094 p=15853 u=root |  TASK [restart] *****************************************************************
+2018-06-27 14:23:35,127 p=15853 u=root |  [0;36mskipping: [centos1][0m
+2018-06-27 14:23:35,129 p=15853 u=root |  [0;36mskipping: [centos2][0m
+2018-06-27 14:23:36,339 p=15853 u=root |  [0;33mchanged: [ubuntu2][0m
+2018-06-27 14:23:36,350 p=15853 u=root |  [0;33mchanged: [ubuntu1][0m
+2018-06-27 14:23:36,352 p=15853 u=root |  PLAY RECAP *********************************************************************
+2018-06-27 14:23:36,352 p=15853 u=root |  centos1                    : ok=4    changed=1    unreachable=0    failed=0   
+2018-06-27 14:23:36,353 p=15853 u=root |  centos2                    : ok=4    changed=1    unreachable=0    failed=0   
+2018-06-27 14:23:36,353 p=15853 u=root |  ubuntu1                    : ok=7    changed=2    unreachable=0    failed=0   
+2018-06-27 14:23:36,353 p=15853 u=root |  ubuntu2                    : ok=7    changed=2    unreachable=0    failed=0   
+2018-06-27 14:24:07,590 p=17108 u=root |  PLAY [Installs,Configures and Deploys Web page in ngnix web server] ************
+2018-06-27 14:24:07,603 p=17108 u=root |  TASK [setup] *******************************************************************
+2018-06-27 14:24:08,019 p=17108 u=root |  [0;32mok: [ubuntu1][0m
+2018-06-27 14:24:08,056 p=17108 u=root |  [0;32mok: [ubuntu2][0m
+2018-06-27 14:24:12,705 p=17108 u=root |  [0;32mok: [centos2][0m
+2018-06-27 14:24:12,742 p=17108 u=root |  [0;32mok: [centos1][0m
+2018-06-27 14:24:12,745 p=17108 u=root |  TASK [Install nginx webserver] *************************************************
+2018-06-27 14:24:12,778 p=17108 u=root |  [0;36mskipping: [centos1][0m
+2018-06-27 14:24:12,780 p=17108 u=root |  [0;36mskipping: [centos2][0m
+2018-06-27 14:24:15,615 p=17108 u=root |  [0;32mok: [ubuntu2][0m
+2018-06-27 14:24:20,540 p=17108 u=root |  [0;32mok: [ubuntu1][0m
+2018-06-27 14:24:20,542 p=17108 u=root |  TASK [Install epel webserver on Centos] ****************************************
+2018-06-27 14:24:20,585 p=17108 u=root |  [0;36mskipping: [ubuntu2][0m
+2018-06-27 14:24:20,589 p=17108 u=root |  [0;36mskipping: [ubuntu1][0m
+2018-06-27 14:24:46,531 p=17108 u=root |  [0;31mfatal: [centos1]: FAILED! => {"changed": false, "failed": true, "msg": "Failure talking to yum: list index out of range"}[0m
+2018-06-27 14:24:54,578 p=17108 u=root |  [0;31mfatal: [centos2]: FAILED! => {"changed": false, "failed": true, "msg": "Failure talking to yum: list index out of range"}[0m
+2018-06-27 14:24:54,580 p=17108 u=root |  TASK [Install nginx webserver on Centos] ***************************************
+2018-06-27 14:24:54,613 p=17108 u=root |  [0;36mskipping: [ubuntu1][0m
+2018-06-27 14:24:54,616 p=17108 u=root |  [0;36mskipping: [ubuntu2][0m
+2018-06-27 14:24:54,618 p=17108 u=root |  TASK [Configure web root folder] ***********************************************
+2018-06-27 14:24:54,764 p=17108 u=root |  [0;32mok: [ubuntu2][0m
+2018-06-27 14:24:54,765 p=17108 u=root |  [0;32mok: [ubuntu1][0m
+2018-06-27 14:24:54,767 p=17108 u=root |  TASK [Restart ngnix web server] ************************************************
+2018-06-27 14:24:55,993 p=17108 u=root |  [0;33mchanged: [ubuntu1][0m
+2018-06-27 14:24:55,994 p=17108 u=root |  [0;33mchanged: [ubuntu2][0m
+2018-06-27 14:24:55,995 p=17108 u=root |  TASK [Create the web root folder] **********************************************
+2018-06-27 14:24:56,106 p=17108 u=root |  [0;32mok: [ubuntu1][0m
+2018-06-27 14:24:56,106 p=17108 u=root |  [0;32mok: [ubuntu2][0m
+2018-06-27 14:24:56,108 p=17108 u=root |  TASK [deploy our custom html page in nginx web server] *************************
+2018-06-27 14:24:56,271 p=17108 u=root |  [0;32mok: [ubuntu1][0m
+2018-06-27 14:24:56,272 p=17108 u=root |  [0;32mok: [ubuntu2][0m
+2018-06-27 14:24:56,274 p=17108 u=root |  TASK [restart] *****************************************************************
+2018-06-27 14:24:57,500 p=17108 u=root |  [0;33mchanged: [ubuntu2][0m
+2018-06-27 14:24:57,503 p=17108 u=root |  [0;33mchanged: [ubuntu1][0m
+2018-06-27 14:24:57,505 p=17108 u=root |  PLAY RECAP *********************************************************************
+2018-06-27 14:24:57,505 p=17108 u=root |  centos1                    : ok=1    changed=0    unreachable=0    failed=1   
+2018-06-27 14:24:57,505 p=17108 u=root |  centos2                    : ok=1    changed=0    unreachable=0    failed=1   
+2018-06-27 14:24:57,505 p=17108 u=root |  ubuntu1                    : ok=7    changed=2    unreachable=0    failed=0   
+2018-06-27 14:24:57,505 p=17108 u=root |  ubuntu2                    : ok=7    changed=2    unreachable=0    failed=0   
+2018-06-27 14:26:22,030 p=18340 u=root |  PLAY [Installs,Configures and Deploys Web page in ngnix web server] ************
+2018-06-27 14:26:22,043 p=18340 u=root |  TASK [setup] *******************************************************************
+2018-06-27 14:26:22,601 p=18340 u=root |  [0;32mok: [ubuntu2][0m
+2018-06-27 14:26:22,627 p=18340 u=root |  [0;32mok: [ubuntu1][0m
+2018-06-27 14:26:27,200 p=18340 u=root |  [0;32mok: [centos1][0m
+2018-06-27 14:26:27,237 p=18340 u=root |  [0;32mok: [centos2][0m
+2018-06-27 14:26:27,241 p=18340 u=root |  TASK [Install nginx webserver] *************************************************
+2018-06-27 14:26:27,272 p=18340 u=root |  [0;36mskipping: [centos1][0m
+2018-06-27 14:26:27,274 p=18340 u=root |  [0;36mskipping: [centos2][0m
+2018-06-27 14:26:34,837 p=18340 u=root |  [0;32mok: [ubuntu2][0m
+2018-06-27 14:26:35,120 p=18340 u=root |  [0;32mok: [ubuntu1][0m
+2018-06-27 14:26:35,122 p=18340 u=root |  TASK [Install epel webserver on Centos] ****************************************
+2018-06-27 14:26:35,164 p=18340 u=root |  [0;36mskipping: [ubuntu2][0m
+2018-06-27 14:26:35,165 p=18340 u=root |  [0;36mskipping: [ubuntu1][0m
+2018-06-27 14:26:46,876 p=18340 u=root |  [0;32mok: [centos2][0m
+2018-06-27 14:26:53,657 p=18340 u=root |  [0;32mok: [centos1][0m
+2018-06-27 14:26:53,660 p=18340 u=root |  TASK [Install nginx webserver on Centos] ***************************************
+2018-06-27 14:26:53,702 p=18340 u=root |  [0;36mskipping: [ubuntu1][0m
+2018-06-27 14:26:53,704 p=18340 u=root |  [0;36mskipping: [ubuntu2][0m
+2018-06-27 14:29:49,544 p=18340 u=root |  [0;33mchanged: [centos2][0m
+2018-06-27 14:30:56,486 p=19401 u=root |  PLAY [Installs,Configures and Deploys Web page in ngnix web server] ************
+2018-06-27 14:30:56,500 p=19401 u=root |  TASK [setup] *******************************************************************
+2018-06-27 14:30:57,079 p=19401 u=root |  [0;32mok: [ubuntu1][0m
+2018-06-27 14:30:57,107 p=19401 u=root |  [0;32mok: [ubuntu2][0m
+2018-06-27 14:31:01,578 p=19401 u=root |  [0;32mok: [centos1][0m
+2018-06-27 14:31:01,687 p=19401 u=root |  [0;32mok: [centos2][0m
+2018-06-27 14:31:01,690 p=19401 u=root |  TASK [Install nginx webserver] *************************************************
+2018-06-27 14:31:01,720 p=19401 u=root |  [0;36mskipping: [centos1][0m
+2018-06-27 14:31:01,722 p=19401 u=root |  [0;36mskipping: [centos2][0m
+2018-06-27 14:31:04,437 p=18340 u=root |  [0;33mchanged: [centos1][0m
+2018-06-27 14:31:04,439 p=18340 u=root |  TASK [Configure web root folder] ***********************************************
+2018-06-27 14:31:04,468 p=18340 u=root |  [0;36mskipping: [centos1][0m
+2018-06-27 14:31:04,489 p=18340 u=root |  [0;36mskipping: [centos2][0m
+2018-06-27 14:31:04,564 p=19401 u=root |  [0;32mok: [ubuntu1][0m
+2018-06-27 14:31:04,610 p=18340 u=root |  [0;32mok: [ubuntu1][0m
+2018-06-27 14:31:04,611 p=18340 u=root |  [0;32mok: [ubuntu2][0m
+2018-06-27 14:31:04,612 p=18340 u=root |  TASK [Restart ngnix web server] ************************************************
+2018-06-27 14:31:04,644 p=18340 u=root |  [0;36mskipping: [centos1][0m
+2018-06-27 14:31:04,645 p=18340 u=root |  [0;36mskipping: [centos2][0m
+2018-06-27 14:31:05,853 p=18340 u=root |  [0;33mchanged: [ubuntu1][0m
+2018-06-27 14:31:05,855 p=18340 u=root |  [0;33mchanged: [ubuntu2][0m
+2018-06-27 14:31:05,857 p=18340 u=root |  TASK [Create the web root folder] **********************************************
+2018-06-27 14:31:05,997 p=18340 u=root |  [0;32mok: [centos1][0m
+2018-06-27 14:31:05,998 p=18340 u=root |  [0;32mok: [ubuntu1][0m
+2018-06-27 14:31:06,001 p=18340 u=root |  [0;32mok: [ubuntu2][0m
+2018-06-27 14:31:06,023 p=18340 u=root |  [0;32mok: [centos2][0m
+2018-06-27 14:31:06,025 p=18340 u=root |  TASK [deploy our custom html page in nginx web server] *************************
+2018-06-27 14:31:06,225 p=18340 u=root |  [0;32mok: [ubuntu1][0m
+2018-06-27 14:31:06,240 p=18340 u=root |  [0;32mok: [centos2][0m
+2018-06-27 14:31:06,241 p=18340 u=root |  [0;32mok: [ubuntu2][0m
+2018-06-27 14:31:06,254 p=18340 u=root |  [0;32mok: [centos1][0m
+2018-06-27 14:31:06,256 p=18340 u=root |  TASK [restart] *****************************************************************
+2018-06-27 14:31:06,285 p=18340 u=root |  [0;36mskipping: [centos1][0m
+2018-06-27 14:31:06,287 p=18340 u=root |  [0;36mskipping: [centos2][0m
+2018-06-27 14:31:07,489 p=18340 u=root |  [0;33mchanged: [ubuntu1][0m
+2018-06-27 14:31:07,496 p=18340 u=root |  [0;33mchanged: [ubuntu2][0m
+2018-06-27 14:31:07,499 p=18340 u=root |  PLAY RECAP *********************************************************************
+2018-06-27 14:31:07,499 p=18340 u=root |  centos1                    : ok=5    changed=1    unreachable=0    failed=0   
+2018-06-27 14:31:07,499 p=18340 u=root |  centos2                    : ok=5    changed=1    unreachable=0    failed=0   
+2018-06-27 14:31:07,499 p=18340 u=root |  ubuntu1                    : ok=7    changed=2    unreachable=0    failed=0   
+2018-06-27 14:31:07,499 p=18340 u=root |  ubuntu2                    : ok=7    changed=2    unreachable=0    failed=0   
+2018-06-27 14:31:09,380 p=19401 u=root |  [0;32mok: [ubuntu2][0m
+2018-06-27 14:31:09,382 p=19401 u=root |  TASK [Install epel webserver on Centos] ****************************************
+2018-06-27 14:31:09,427 p=19401 u=root |  [0;36mskipping: [ubuntu2][0m
+2018-06-27 14:31:09,429 p=19401 u=root |  [0;36mskipping: [ubuntu1][0m
+2018-06-27 14:31:14,485 p=19401 u=root |  [0;32mok: [centos1][0m
+2018-06-27 14:31:21,482 p=19401 u=root |  [0;32mok: [centos2][0m
+2018-06-27 14:31:21,483 p=19401 u=root |  TASK [Install nginx webserver on Centos] ***************************************
+2018-06-27 14:31:21,526 p=19401 u=root |  [0;36mskipping: [ubuntu2][0m
+2018-06-27 14:31:21,533 p=19401 u=root |  [0;36mskipping: [ubuntu1][0m
+2018-06-27 14:31:59,873 p=19401 u=root |  [0;32mok: [centos1][0m
+2018-06-27 14:32:08,612 p=19401 u=root |  [0;32mok: [centos2][0m
+2018-06-27 14:32:08,614 p=19401 u=root |  TASK [Configure web root folder] ***********************************************
+2018-06-27 14:32:08,648 p=19401 u=root |  [0;36mskipping: [centos2][0m
+2018-06-27 14:32:08,651 p=19401 u=root |  [0;36mskipping: [centos1][0m
+2018-06-27 14:32:08,785 p=19401 u=root |  [0;32mok: [ubuntu2][0m
+2018-06-27 14:32:08,906 p=19401 u=root |  [0;32mok: [ubuntu1][0m
+2018-06-27 14:32:08,908 p=19401 u=root |  TASK [Restart ngnix web server] ************************************************
+2018-06-27 14:32:08,941 p=19401 u=root |  [0;36mskipping: [centos2][0m
+2018-06-27 14:32:08,944 p=19401 u=root |  [0;36mskipping: [centos1][0m
+2018-06-27 14:32:10,139 p=19401 u=root |  [0;33mchanged: [ubuntu1][0m
+2018-06-27 14:32:10,139 p=19401 u=root |  [0;33mchanged: [ubuntu2][0m
+2018-06-27 14:32:10,141 p=19401 u=root |  TASK [Restart ngnix web server on centos] **************************************
+2018-06-27 14:32:10,177 p=19401 u=root |  [0;36mskipping: [ubuntu1][0m
+2018-06-27 14:32:10,187 p=19401 u=root |  [0;36mskipping: [ubuntu2][0m
+2018-06-27 14:32:10,948 p=19401 u=root |  [0;33mchanged: [centos1][0m
+2018-06-27 14:32:10,948 p=19401 u=root |  [0;33mchanged: [centos2][0m
+2018-06-27 14:32:10,950 p=19401 u=root |  TASK [Create the web root folder] **********************************************
+2018-06-27 14:32:11,084 p=19401 u=root |  [0;32mok: [ubuntu1][0m
+2018-06-27 14:32:11,085 p=19401 u=root |  [0;32mok: [centos1][0m
+2018-06-27 14:32:11,086 p=19401 u=root |  [0;32mok: [centos2][0m
+2018-06-27 14:32:11,088 p=19401 u=root |  [0;32mok: [ubuntu2][0m
+2018-06-27 14:32:11,090 p=19401 u=root |  TASK [deploy our custom html page in nginx web server] *************************
+2018-06-27 14:32:11,289 p=19401 u=root |  [0;32mok: [ubuntu1][0m
+2018-06-27 14:32:11,289 p=19401 u=root |  [0;32mok: [centos1][0m
+2018-06-27 14:32:11,296 p=19401 u=root |  [0;32mok: [centos2][0m
+2018-06-27 14:32:11,306 p=19401 u=root |  [0;32mok: [ubuntu2][0m
+2018-06-27 14:32:11,308 p=19401 u=root |  TASK [restart] *****************************************************************
+2018-06-27 14:32:11,340 p=19401 u=root |  [0;36mskipping: [centos1][0m
+2018-06-27 14:32:11,342 p=19401 u=root |  [0;36mskipping: [centos2][0m
+2018-06-27 14:32:12,553 p=19401 u=root |  [0;33mchanged: [ubuntu1][0m
+2018-06-27 14:32:12,554 p=19401 u=root |  [0;33mchanged: [ubuntu2][0m
+2018-06-27 14:32:12,556 p=19401 u=root |  TASK [Restart ngnix web server on centos] **************************************
+2018-06-27 14:32:12,595 p=19401 u=root |  [0;36mskipping: [ubuntu1][0m
+2018-06-27 14:32:12,596 p=19401 u=root |  [0;36mskipping: [ubuntu2][0m
+2018-06-27 14:32:13,457 p=19401 u=root |  [0;33mchanged: [centos2][0m
+2018-06-27 14:32:13,474 p=19401 u=root |  [0;33mchanged: [centos1][0m
+2018-06-27 14:32:13,476 p=19401 u=root |  PLAY RECAP *********************************************************************
+2018-06-27 14:32:13,476 p=19401 u=root |  centos1                    : ok=7    changed=2    unreachable=0    failed=0   
+2018-06-27 14:32:13,476 p=19401 u=root |  centos2                    : ok=7    changed=2    unreachable=0    failed=0   
+2018-06-27 14:32:13,476 p=19401 u=root |  ubuntu1                    : ok=7    changed=2    unreachable=0    failed=0   
+2018-06-27 14:32:13,476 p=19401 u=root |  ubuntu2                    : ok=7    changed=2    unreachable=0    failed=0   
+2018-06-27 14:41:11,722 p=21836 u=root |  PLAY [Installs,Configures and Deploys Web page in ngnix web server] ************
+2018-06-27 14:41:11,736 p=21836 u=root |  TASK [setup] *******************************************************************
+2018-06-27 14:41:12,240 p=21836 u=root |  [0;32mok: [ubuntu2][0m
+2018-06-27 14:41:12,246 p=21836 u=root |  [0;32mok: [ubuntu1][0m
+2018-06-27 14:41:16,775 p=21836 u=root |  [0;32mok: [centos2][0m
+2018-06-27 14:41:21,866 p=21836 u=root |  [0;32mok: [centos1][0m
+2018-06-27 14:41:21,869 p=21836 u=root |  TASK [Install nginx webserver] *************************************************
+2018-06-27 14:41:21,897 p=21836 u=root |  [0;36mskipping: [centos1][0m
+2018-06-27 14:41:21,907 p=21836 u=root |  [0;36mskipping: [centos2][0m
+2018-06-27 14:41:24,729 p=21836 u=root |  [0;32mok: [ubuntu2][0m
+2018-06-27 14:41:29,664 p=21836 u=root |  [0;32mok: [ubuntu1][0m
+2018-06-27 14:41:29,667 p=21836 u=root |  TASK [Install epel webserver on Centos] ****************************************
+2018-06-27 14:41:29,710 p=21836 u=root |  [0;36mskipping: [ubuntu2][0m
+2018-06-27 14:41:29,714 p=21836 u=root |  [0;36mskipping: [ubuntu1][0m
+2018-06-27 14:41:38,500 p=21836 u=root |  [0;32mok: [centos1][0m
+2018-06-27 14:41:42,889 p=21836 u=root |  [0;32mok: [centos2][0m
+2018-06-27 14:41:42,891 p=21836 u=root |  TASK [Install nginx webserver on Centos] ***************************************
+2018-06-27 14:41:42,931 p=21836 u=root |  [0;36mskipping: [ubuntu1][0m
+2018-06-27 14:41:42,935 p=21836 u=root |  [0;36mskipping: [ubuntu2][0m
+2018-06-27 14:42:14,437 p=21836 u=root |  [0;32mok: [centos2][0m
+2018-06-27 14:42:19,938 p=21836 u=root |  [0;32mok: [centos1][0m
+2018-06-27 14:42:19,941 p=21836 u=root |  TASK [Configure web root folder] ***********************************************
+2018-06-27 14:42:19,972 p=21836 u=root |  [0;36mskipping: [centos1][0m
+2018-06-27 14:42:19,975 p=21836 u=root |  [0;36mskipping: [centos2][0m
+2018-06-27 14:42:20,103 p=21836 u=root |  [0;32mok: [ubuntu1][0m
+2018-06-27 14:42:20,104 p=21836 u=root |  [0;32mok: [ubuntu2][0m
+2018-06-27 14:42:20,105 p=21836 u=root |  TASK [Configure web root folder on Centos] *************************************
+2018-06-27 14:42:20,147 p=21836 u=root |  [0;36mskipping: [ubuntu1][0m
+2018-06-27 14:42:20,148 p=21836 u=root |  [0;36mskipping: [ubuntu2][0m
+2018-06-27 14:42:21,378 p=21836 u=root |  [0;33mchanged: [centos1][0m
+2018-06-27 14:42:21,409 p=21836 u=root |  [0;33mchanged: [centos2][0m
+2018-06-27 14:42:21,411 p=21836 u=root |  TASK [Restart ngnix web server] ************************************************
+2018-06-27 14:42:21,442 p=21836 u=root |  [0;36mskipping: [centos1][0m
+2018-06-27 14:42:21,449 p=21836 u=root |  [0;36mskipping: [centos2][0m
+2018-06-27 14:42:22,642 p=21836 u=root |  [0;33mchanged: [ubuntu2][0m
+2018-06-27 14:42:22,650 p=21836 u=root |  [0;33mchanged: [ubuntu1][0m
+2018-06-27 14:42:22,652 p=21836 u=root |  TASK [Restart ngnix web server on centos] **************************************
+2018-06-27 14:42:22,698 p=21836 u=root |  [0;36mskipping: [ubuntu2][0m
+2018-06-27 14:42:22,698 p=21836 u=root |  [0;36mskipping: [ubuntu1][0m
+2018-06-27 14:42:23,550 p=21836 u=root |  [0;33mchanged: [centos2][0m
+2018-06-27 14:42:23,563 p=21836 u=root |  [0;33mchanged: [centos1][0m
+2018-06-27 14:42:23,565 p=21836 u=root |  TASK [Create the web root folder] **********************************************
+2018-06-27 14:42:23,702 p=21836 u=root |  [0;32mok: [ubuntu1][0m
+2018-06-27 14:42:23,703 p=21836 u=root |  [0;32mok: [ubuntu2][0m
+2018-06-27 14:42:23,705 p=21836 u=root |  [0;32mok: [centos1][0m
+2018-06-27 14:42:23,721 p=21836 u=root |  [0;32mok: [centos2][0m
+2018-06-27 14:42:23,724 p=21836 u=root |  TASK [deploy our custom html page in nginx web server] *************************
+2018-06-27 14:42:23,915 p=21836 u=root |  [0;32mok: [ubuntu1][0m
+2018-06-27 14:42:23,941 p=21836 u=root |  [0;32mok: [ubuntu2][0m
+2018-06-27 14:42:23,944 p=21836 u=root |  [0;32mok: [centos1][0m
+2018-06-27 14:42:23,948 p=21836 u=root |  [0;32mok: [centos2][0m
+2018-06-27 14:42:23,950 p=21836 u=root |  TASK [restart] *****************************************************************
+2018-06-27 14:42:23,979 p=21836 u=root |  [0;36mskipping: [centos1][0m
+2018-06-27 14:42:23,981 p=21836 u=root |  [0;36mskipping: [centos2][0m
+2018-06-27 14:42:25,185 p=21836 u=root |  [0;33mchanged: [ubuntu1][0m
+2018-06-27 14:42:25,191 p=21836 u=root |  [0;33mchanged: [ubuntu2][0m
+2018-06-27 14:42:25,192 p=21836 u=root |  TASK [Restart ngnix web server on centos] **************************************
+2018-06-27 14:42:25,235 p=21836 u=root |  [0;36mskipping: [ubuntu1][0m
+2018-06-27 14:42:25,239 p=21836 u=root |  [0;36mskipping: [ubuntu2][0m
+2018-06-27 14:42:26,095 p=21836 u=root |  [0;33mchanged: [centos2][0m
+2018-06-27 14:42:26,100 p=21836 u=root |  [0;33mchanged: [centos1][0m
+2018-06-27 14:42:26,102 p=21836 u=root |  PLAY RECAP *********************************************************************
+2018-06-27 14:42:26,102 p=21836 u=root |  centos1                    : ok=8    changed=3    unreachable=0    failed=0   
+2018-06-27 14:42:26,102 p=21836 u=root |  centos2                    : ok=8    changed=3    unreachable=0    failed=0   
+2018-06-27 14:42:26,102 p=21836 u=root |  ubuntu1                    : ok=7    changed=2    unreachable=0    failed=0   
+2018-06-27 14:42:26,102 p=21836 u=root |  ubuntu2                    : ok=7    changed=2    unreachable=0    failed=0   
+2018-06-27 14:53:39,353 p=23837 u=root |  [0;31mERROR! You must specify a playbook file to run[0m
+2018-06-27 14:54:39,204 p=23850 u=root |  [0;31mERROR! the playbook: intallngix.yml could not be found[0m
+2018-06-27 14:55:14,821 p=23854 u=root |  [0;31mERROR! the playbook: intallngix.yml could not be found[0m
+2018-06-27 14:55:55,363 p=23866 u=root |  PLAY [Installs,Configures and Deploys Web page in ngnix web server] ************
+2018-06-27 14:55:55,377 p=23866 u=root |  TASK [setup] *******************************************************************
+2018-06-27 14:55:55,927 p=23866 u=root |  [0;32mok: [ubuntu2][0m
+2018-06-27 14:55:55,933 p=23866 u=root |  [0;32mok: [ubuntu1][0m
+2018-06-27 14:56:00,542 p=23866 u=root |  [0;32mok: [centos1][0m
+2018-06-27 14:56:00,593 p=23866 u=root |  [0;32mok: [centos2][0m
+2018-06-27 14:56:00,595 p=23866 u=root |  TASK [Install nginx webserver] *************************************************
+2018-06-27 14:56:00,628 p=23866 u=root |  [0;36mskipping: [centos1][0m
+2018-06-27 14:56:00,629 p=23866 u=root |  [0;36mskipping: [centos2][0m
+2018-06-27 14:56:08,889 p=23866 u=root |  [0;32mok: [ubuntu1][0m
+2018-06-27 14:56:08,889 p=23866 u=root |  [0;32mok: [ubuntu2][0m
+2018-06-27 14:56:08,891 p=23866 u=root |  TASK [Install epel webserver on Centos] ****************************************
+2018-06-27 14:56:08,933 p=23866 u=root |  [0;36mskipping: [ubuntu1][0m
+2018-06-27 14:56:08,934 p=23866 u=root |  [0;36mskipping: [ubuntu2][0m
+2018-06-27 14:56:17,965 p=23866 u=root |  [0;32mok: [centos1][0m
+2018-06-27 14:56:24,420 p=23866 u=root |  [0;32mok: [centos2][0m
+2018-06-27 14:56:24,423 p=23866 u=root |  TASK [Install nginx webserver on Centos] ***************************************
+2018-06-27 14:56:24,462 p=23866 u=root |  [0;36mskipping: [ubuntu1][0m
+2018-06-27 14:56:24,466 p=23866 u=root |  [0;36mskipping: [ubuntu2][0m
+2018-06-27 14:56:52,350 p=23866 u=root |  [0;32mok: [centos1][0m
+2018-06-27 14:56:57,596 p=23866 u=root |  [0;32mok: [centos2][0m
+2018-06-27 14:56:57,598 p=23866 u=root |  TASK [Configure web root folder] ***********************************************
+2018-06-27 14:56:57,629 p=23866 u=root |  [0;36mskipping: [centos1][0m
+2018-06-27 14:56:57,632 p=23866 u=root |  [0;36mskipping: [centos2][0m
+2018-06-27 14:56:57,763 p=23866 u=root |  [0;32mok: [ubuntu1][0m
+2018-06-27 14:56:57,767 p=23866 u=root |  [0;32mok: [ubuntu2][0m
+2018-06-27 14:56:57,768 p=23866 u=root |  TASK [Configure web root folder on Centos] *************************************
+2018-06-27 14:56:57,816 p=23866 u=root |  [0;36mskipping: [ubuntu1][0m
+2018-06-27 14:56:57,835 p=23866 u=root |  [0;36mskipping: [ubuntu2][0m
+2018-06-27 14:56:57,960 p=23866 u=root |  [0;32mok: [centos1][0m
+2018-06-27 14:56:57,963 p=23866 u=root |  [0;32mok: [centos2][0m
+2018-06-27 14:56:57,965 p=23866 u=root |  TASK [Restart ngnix web server] ************************************************
+2018-06-27 14:56:58,891 p=23866 u=root |  [0;33mchanged: [centos2][0m
+2018-06-27 14:56:58,911 p=23866 u=root |  [0;33mchanged: [centos1][0m
+2018-06-27 14:56:59,233 p=23866 u=root |  [0;33mchanged: [ubuntu1][0m
+2018-06-27 14:56:59,233 p=23866 u=root |  [0;33mchanged: [ubuntu2][0m
+2018-06-27 14:56:59,235 p=23866 u=root |  TASK [Restart ngnix web server on centos] **************************************
+2018-06-27 14:56:59,277 p=23866 u=root |  [0;36mskipping: [ubuntu2][0m
+2018-06-27 14:56:59,282 p=23866 u=root |  [0;36mskipping: [ubuntu1][0m
+2018-06-27 14:57:00,141 p=23866 u=root |  [0;33mchanged: [centos2][0m
+2018-06-27 14:57:00,154 p=23866 u=root |  [0;33mchanged: [centos1][0m
+2018-06-27 14:57:00,156 p=23866 u=root |  TASK [Create the web root folder] **********************************************
+2018-06-27 14:57:00,293 p=23866 u=root |  [0;32mok: [ubuntu1][0m
+2018-06-27 14:57:00,297 p=23866 u=root |  [0;32mok: [ubuntu2][0m
+2018-06-27 14:57:00,299 p=23866 u=root |  [0;32mok: [centos2][0m
+2018-06-27 14:57:00,325 p=23866 u=root |  [0;32mok: [centos1][0m
+2018-06-27 14:57:00,327 p=23866 u=root |  TASK [deploy our custom html page in nginx web server] *************************
+2018-06-27 14:57:00,539 p=23866 u=root |  [0;32mok: [ubuntu1][0m
+2018-06-27 14:57:00,541 p=23866 u=root |  [0;32mok: [centos1][0m
+2018-06-27 14:57:00,562 p=23866 u=root |  [0;32mok: [centos2][0m
+2018-06-27 14:57:00,563 p=23866 u=root |  [0;32mok: [ubuntu2][0m
+2018-06-27 14:57:00,564 p=23866 u=root |  TASK [restart] *****************************************************************
+2018-06-27 14:57:01,514 p=23866 u=root |  [0;33mchanged: [centos1][0m
+2018-06-27 14:57:01,536 p=23866 u=root |  [0;33mchanged: [centos2][0m
+2018-06-27 14:57:01,852 p=23866 u=root |  [0;33mchanged: [ubuntu1][0m
+2018-06-27 14:57:01,853 p=23866 u=root |  [0;33mchanged: [ubuntu2][0m
+2018-06-27 14:57:01,855 p=23866 u=root |  TASK [Restart ngnix web server on centos] **************************************
+2018-06-27 14:57:02,781 p=23866 u=root |  [0;33mchanged: [centos2][0m
+2018-06-27 14:57:02,783 p=23866 u=root |  [0;33mchanged: [centos1][0m
+2018-06-27 14:57:03,133 p=23866 u=root |  [0;33mchanged: [ubuntu2][0m
+2018-06-27 14:57:03,141 p=23866 u=root |  [0;33mchanged: [ubuntu1][0m
+2018-06-27 14:57:03,143 p=23866 u=root |  PLAY RECAP *********************************************************************
+2018-06-27 14:57:03,143 p=23866 u=root |  centos1                    : ok=10   changed=4    unreachable=0    failed=0   
+2018-06-27 14:57:03,143 p=23866 u=root |  centos2                    : ok=10   changed=4    unreachable=0    failed=0   
+2018-06-27 14:57:03,143 p=23866 u=root |  ubuntu1                    : ok=8    changed=3    unreachable=0    failed=0   
+2018-06-27 14:57:03,143 p=23866 u=root |  ubuntu2                    : ok=8    changed=3    unreachable=0    failed=0   
+2018-06-27 15:00:06,763 p=26243 u=root |  PLAY [Installs,Configures and Deploys Web page in ngnix web server] ************
+2018-06-27 15:00:06,777 p=26243 u=root |  TASK [setup] *******************************************************************
+2018-06-27 15:00:07,340 p=26243 u=root |  [0;32mok: [ubuntu2][0m
+2018-06-27 15:00:07,343 p=26243 u=root |  [0;32mok: [ubuntu1][0m
+2018-06-27 15:00:11,967 p=26243 u=root |  [0;32mok: [centos2][0m
+2018-06-27 15:00:12,012 p=26243 u=root |  [0;32mok: [centos1][0m
+2018-06-27 15:00:12,016 p=26243 u=root |  TASK [Install nginx webserver] *************************************************
+2018-06-27 15:00:12,049 p=26243 u=root |  [0;36mskipping: [centos2][0m
+2018-06-27 15:00:12,049 p=26243 u=root |  [0;36mskipping: [centos1][0m
+2018-06-27 15:00:15,262 p=26243 u=root |  [0;32mok: [ubuntu1][0m
+2018-06-27 15:00:20,056 p=26243 u=root |  [0;32mok: [ubuntu2][0m
+2018-06-27 15:00:20,057 p=26243 u=root |  TASK [Install epel webserver on Centos] ****************************************
+2018-06-27 15:00:20,099 p=26243 u=root |  [0;36mskipping: [ubuntu1][0m
+2018-06-27 15:00:20,099 p=26243 u=root |  [0;36mskipping: [ubuntu2][0m
+2018-06-27 15:00:27,253 p=26243 u=root |  [0;32mok: [centos2][0m
+2018-06-27 15:00:35,391 p=26243 u=root |  [0;32mok: [centos1][0m
+2018-06-27 15:00:35,393 p=26243 u=root |  TASK [Install nginx webserver on Centos] ***************************************
+2018-06-27 15:00:35,432 p=26243 u=root |  [0;36mskipping: [ubuntu1][0m
+2018-06-27 15:00:35,436 p=26243 u=root |  [0;36mskipping: [ubuntu2][0m
+2018-06-27 15:01:15,107 p=26243 u=root |  [0;32mok: [centos1][0m
+2018-06-27 15:01:22,012 p=26243 u=root |  [0;32mok: [centos2][0m
+2018-06-27 15:01:22,014 p=26243 u=root |  TASK [Configure web root folder] ***********************************************
+2018-06-27 15:01:22,046 p=26243 u=root |  [0;36mskipping: [centos1][0m
+2018-06-27 15:01:22,048 p=26243 u=root |  [0;36mskipping: [centos2][0m
+2018-06-27 15:01:22,309 p=26243 u=root |  [0;32mok: [ubuntu1][0m
+2018-06-27 15:01:22,309 p=26243 u=root |  [0;32mok: [ubuntu2][0m
+2018-06-27 15:01:22,311 p=26243 u=root |  TASK [Configure web root folder on Centos] *************************************
+2018-06-27 15:01:22,351 p=26243 u=root |  [0;36mskipping: [ubuntu1][0m
+2018-06-27 15:01:22,352 p=26243 u=root |  [0;36mskipping: [ubuntu2][0m
+2018-06-27 15:01:22,480 p=26243 u=root |  [0;32mok: [centos1][0m
+2018-06-27 15:01:22,483 p=26243 u=root |  [0;32mok: [centos2][0m
+2018-06-27 15:01:22,485 p=26243 u=root |  TASK [Restart ngnix web server] ************************************************
+2018-06-27 15:01:23,402 p=26243 u=root |  [0;33mchanged: [centos1][0m
+2018-06-27 15:01:23,410 p=26243 u=root |  [0;33mchanged: [centos2][0m
+2018-06-27 15:01:23,730 p=26243 u=root |  [0;33mchanged: [ubuntu1][0m
+2018-06-27 15:01:23,731 p=26243 u=root |  [0;33mchanged: [ubuntu2][0m
+2018-06-27 15:01:23,733 p=26243 u=root |  TASK [Restart ngnix web server on centos] **************************************
+2018-06-27 15:01:23,770 p=26243 u=root |  [0;36mskipping: [ubuntu1][0m
+2018-06-27 15:01:23,782 p=26243 u=root |  [0;36mskipping: [ubuntu2][0m
+2018-06-27 15:01:24,646 p=26243 u=root |  [0;33mchanged: [centos2][0m
+2018-06-27 15:01:24,652 p=26243 u=root |  [0;33mchanged: [centos1][0m
+2018-06-27 15:01:24,653 p=26243 u=root |  TASK [Create the web root folder] **********************************************
+2018-06-27 15:01:24,786 p=26243 u=root |  [0;32mok: [ubuntu2][0m
+2018-06-27 15:01:24,787 p=26243 u=root |  [0;32mok: [ubuntu1][0m
+2018-06-27 15:01:24,800 p=26243 u=root |  [0;32mok: [centos1][0m
+2018-06-27 15:01:24,811 p=26243 u=root |  [0;32mok: [centos2][0m
+2018-06-27 15:01:24,813 p=26243 u=root |  TASK [deploy our custom html page in nginx web server] *************************
+2018-06-27 15:01:25,011 p=26243 u=root |  [0;32mok: [ubuntu1][0m
+2018-06-27 15:01:25,011 p=26243 u=root |  [0;32mok: [ubuntu2][0m
+2018-06-27 15:01:25,021 p=26243 u=root |  [0;32mok: [centos2][0m
+2018-06-27 15:01:25,025 p=26243 u=root |  [0;32mok: [centos1][0m
+2018-06-27 15:01:25,027 p=26243 u=root |  TASK [restart] *****************************************************************
+2018-06-27 15:01:25,957 p=26243 u=root |  [0;33mchanged: [centos2][0m
+2018-06-27 15:01:25,964 p=26243 u=root |  [0;33mchanged: [centos1][0m
+2018-06-27 15:01:26,278 p=26243 u=root |  [0;33mchanged: [ubuntu2][0m
+2018-06-27 15:01:26,290 p=26243 u=root |  [0;33mchanged: [ubuntu1][0m
+2018-06-27 15:01:26,292 p=26243 u=root |  TASK [Restart ngnix web server on centos] **************************************
+2018-06-27 15:01:27,212 p=26243 u=root |  [0;33mchanged: [centos1][0m
+2018-06-27 15:01:27,213 p=26243 u=root |  [0;33mchanged: [centos2][0m
+2018-06-27 15:01:27,512 p=26243 u=root |  [0;33mchanged: [ubuntu1][0m
+2018-06-27 15:01:27,549 p=26243 u=root |  [0;33mchanged: [ubuntu2][0m
+2018-06-27 15:01:27,552 p=26243 u=root |  PLAY RECAP *********************************************************************
+2018-06-27 15:01:27,552 p=26243 u=root |  centos1                    : ok=10   changed=4    unreachable=0    failed=0   
+2018-06-27 15:01:27,552 p=26243 u=root |  centos2                    : ok=10   changed=4    unreachable=0    failed=0   
+2018-06-27 15:01:27,552 p=26243 u=root |  ubuntu1                    : ok=8    changed=3    unreachable=0    failed=0   
+2018-06-27 15:01:27,552 p=26243 u=root |  ubuntu2                    : ok=8    changed=3    unreachable=0    failed=0   
+2018-06-27 15:23:08,633 p=28734 u=root |  [0;31mERROR! variable files must contain either a dictionary of variables, or a list of dictionaries. Got: [u'greting_msg:Devops', u'automation_tool:Ansible', u'provisioner_tool:Docker'] (<class 'ansible.parsing.yaml.objects.AnsibleSequence'>)[0m
+2018-06-27 15:25:31,019 p=28763 u=root |  [0;31mERROR! variable files must contain either a dictionary of variables, or a list of dictionaries. Got: [u'greeting_msg:Devops', u'automation_tool:Ansible', u'provisioner_tool:Docker'] (<class 'ansible.parsing.yaml.objects.AnsibleSequence'>)[0m
+2018-06-27 15:26:20,163 p=28768 u=root |  PLAY [Installs,Configures and Deploys Web page in ngnix web server] ************
+2018-06-27 15:26:20,174 p=28768 u=root |  TASK [setup] *******************************************************************
+2018-06-27 15:26:20,681 p=28768 u=root |  [0;32mok: [ubuntu2][0m
+2018-06-27 15:26:25,266 p=28768 u=root |  [0;32mok: [centos2][0m
+2018-06-27 15:26:25,347 p=28768 u=root |  [0;32mok: [centos1][0m
+2018-06-27 15:26:32,750 p=28768 u=root |  [0;32mok: [ubuntu1][0m
+2018-06-27 15:26:32,759 p=28768 u=root |  TASK [Install nginx webserver] *************************************************
+2018-06-27 15:26:32,789 p=28768 u=root |  [0;36mskipping: [centos1][0m
+2018-06-27 15:26:32,792 p=28768 u=root |  [0;36mskipping: [centos2][0m
+2018-06-27 15:26:36,098 p=28768 u=root |  [0;32mok: [ubuntu2][0m
+2018-06-27 15:26:41,088 p=28768 u=root |  [0;32mok: [ubuntu1][0m
+2018-06-27 15:26:41,090 p=28768 u=root |  TASK [Install epel webserver on Centos] ****************************************
+2018-06-27 15:26:41,136 p=28768 u=root |  [0;36mskipping: [ubuntu2][0m
+2018-06-27 15:26:41,139 p=28768 u=root |  [0;36mskipping: [ubuntu1][0m
+2018-06-27 15:26:46,900 p=28768 u=root |  [0;32mok: [centos1][0m
+2018-06-27 15:26:51,201 p=28768 u=root |  [0;32mok: [centos2][0m
+2018-06-27 15:26:51,203 p=28768 u=root |  TASK [Install nginx webserver on Centos] ***************************************
+2018-06-27 15:26:51,249 p=28768 u=root |  [0;36mskipping: [ubuntu2][0m
+2018-06-27 15:26:51,252 p=28768 u=root |  [0;36mskipping: [ubuntu1][0m
+2018-06-27 15:27:29,039 p=28768 u=root |  [0;32mok: [centos1][0m
+2018-06-27 15:27:37,548 p=28768 u=root |  [0;32mok: [centos2][0m
+2018-06-27 15:27:37,551 p=28768 u=root |  TASK [Configure web root folder] ***********************************************
+2018-06-27 15:27:37,583 p=28768 u=root |  [0;36mskipping: [centos1][0m
+2018-06-27 15:27:37,586 p=28768 u=root |  [0;36mskipping: [centos2][0m
+2018-06-27 15:27:37,722 p=28768 u=root |  [0;32mok: [ubuntu1][0m
+2018-06-27 15:27:37,859 p=28768 u=root |  [0;32mok: [ubuntu2][0m
+2018-06-27 15:27:37,862 p=28768 u=root |  TASK [Configure web root folder on Centos] *************************************
+2018-06-27 15:27:37,908 p=28768 u=root |  [0;36mskipping: [ubuntu1][0m
+2018-06-27 15:27:37,911 p=28768 u=root |  [0;36mskipping: [ubuntu2][0m
+2018-06-27 15:27:38,033 p=28768 u=root |  [0;32mok: [centos1][0m
+2018-06-27 15:27:38,034 p=28768 u=root |  [0;32mok: [centos2][0m
+2018-06-27 15:27:38,036 p=28768 u=root |  TASK [Create the web root folder] **********************************************
+2018-06-27 15:27:38,162 p=28768 u=root |  [0;32mok: [ubuntu1][0m
+2018-06-27 15:27:38,171 p=28768 u=root |  [0;32mok: [centos2][0m
+2018-06-27 15:27:38,179 p=28768 u=root |  [0;32mok: [ubuntu2][0m
+2018-06-27 15:27:38,186 p=28768 u=root |  [0;32mok: [centos1][0m
+2018-06-27 15:27:38,189 p=28768 u=root |  TASK [deploy our custom html page in nginx web server] *************************
+2018-06-27 15:27:38,396 p=28768 u=root |  [0;33mchanged: [ubuntu1][0m
+2018-06-27 15:27:38,417 p=28768 u=root |  [0;33mchanged: [ubuntu2][0m
+2018-06-27 15:27:39,488 p=28768 u=root |  [0;33mchanged: [centos2][0m
+2018-06-27 15:27:39,489 p=28768 u=root |  [0;33mchanged: [centos1][0m
+2018-06-27 15:27:39,491 p=28768 u=root |  RUNNING HANDLER [Restart ngnix web server] *************************************
+2018-06-27 15:27:40,428 p=28768 u=root |  [0;33mchanged: [centos1][0m
+2018-06-27 15:27:40,434 p=28768 u=root |  [0;33mchanged: [centos2][0m
+2018-06-27 15:27:40,744 p=28768 u=root |  [0;33mchanged: [ubuntu2][0m
+2018-06-27 15:27:40,754 p=28768 u=root |  [0;33mchanged: [ubuntu1][0m
+2018-06-27 15:27:40,763 p=28768 u=root |  PLAY RECAP *********************************************************************
+2018-06-27 15:27:40,763 p=28768 u=root |  centos1                    : ok=7    changed=2    unreachable=0    failed=0   
+2018-06-27 15:27:40,763 p=28768 u=root |  centos2                    : ok=7    changed=2    unreachable=0    failed=0   
+2018-06-27 15:27:40,763 p=28768 u=root |  ubuntu1                    : ok=6    changed=2    unreachable=0    failed=0   
+2018-06-27 15:27:40,763 p=28768 u=root |  ubuntu2                    : ok=6    changed=2    unreachable=0    failed=0   
+2018-06-27 17:25:20,112 p=31320 u=root |  [0;31mERROR! Syntax Error while loading YAML.
+
+
+The error appears to have been in '/root/DevOps/Day3/Playbooks/start_containers.yml': line 3, column 9, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+  hosts: localhost
+   -name: Start Ubuntu container
+        ^ here
+[0m
+2018-06-27 17:25:48,799 p=31323 u=root |  [0;31mERROR! Syntax Error while loading YAML.
+
+
+The error appears to have been in '/root/DevOps/Day3/Playbooks/start_containers.yml': line 3, column 9, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+  hosts: localhost
+   -name: start Ubuntu container
+        ^ here
+[0m
+2018-06-27 17:27:15,711 p=31331 u=root |  [0;31mERROR! Syntax Error while loading YAML.
+
+
+The error appears to have been in '/root/DevOps/Day3/Playbooks/start_containers.yml': line 3, column 9, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+  hosts: localhost
+   -name: start Ubuntu container
+        ^ here
+[0m
+2018-06-27 17:27:46,718 p=31334 u=root |  [0;31mERROR! Syntax Error while loading YAML.
+
+
+The error appears to have been in '/root/DevOps/Day3/Playbooks/start_containers.yml': line 5, column 11, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+   -name: start Ubuntu container
+    docker:
+          ^ here
+[0m
+2018-06-27 17:28:15,171 p=31339 u=root |  [0;31mERROR! 'with _sequence' is not a valid attribute for a Task
+
+The error appears to have been in '/root/DevOps/Day3/Playbooks/start_containers.yml': line 14, column 6, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+   - name: start CentOS container
+     ^ here
+[0m
+2018-06-27 17:28:43,346 p=31342 u=root |  [0;31mERROR! 'with _sequence' is not a valid attribute for a Task
+
+The error appears to have been in '/root/DevOps/Day3/Playbooks/start_containers.yml': line 14, column 6, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+   - name: start centOS container
+     ^ here
+[0m
+2018-06-27 17:29:38,594 p=31347 u=root |  [0;31mERROR! 'with _sequence' is not a valid attribute for a Task
+
+The error appears to have been in '/root/DevOps/Day3/Playbooks/start_containers.yml': line 13, column 6, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+     with_sequence: start=
+   - name: start centOS container
+     ^ here
+[0m
+2018-06-27 17:30:20,692 p=31353 u=root |  [0;31mERROR! 'with _sequence' is not a valid attribute for a Task
+
+The error appears to have been in '/root/DevOps/Day3/Playbooks/start_containers.yml': line 13, column 6, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+     with_sequence: start=1 end=5
+   - name: start centOS container
+     ^ here
+[0m
+2018-06-27 17:31:51,142 p=31361 u=root |  [0;31mERROR! 'with _sequence' is not a valid attribute for a Task
+
+The error appears to have been in '/root/DevOps/Day3/Playbooks/start_containers.yml': line 14, column 6, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+     with_sequence: start=1 end=5
+   - name: start centOS container
+     ^ here
+[0m
+2018-06-27 17:35:07,658 p=31383 u=root |  [0;31mERROR! 'with _sequence' is not a valid attribute for a Task
+
+The error appears to have been in '/root/DevOps/Day3/Playbooks/start_containers.yml': line 14, column 6, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+     with_sequence: start=1 end=5
+   - name: start centOS container
+     ^ here
+[0m
+2018-06-27 17:36:32,112 p=31391 u=root |  playbook: start_containers.yml
+2018-06-27 17:38:04,492 p=31397 u=root |  playbook: start_containers.yml
+2018-06-27 17:38:19,946 p=31403 u=root |  PLAY [Demo use of ansible docker modules] **************************************
+2018-06-27 17:38:19,955 p=31403 u=root |  TASK [setup] *******************************************************************
+2018-06-27 17:38:20,578 p=31403 u=root |  [0;32mok: [localhost][0m
+2018-06-27 17:38:20,581 p=31403 u=root |  TASK [start Ubuntu container] **************************************************
+2018-06-27 17:38:21,287 p=31403 u=root |  [0;31mAn exception occurred during task execution. To see the full traceback, use -vvv. The error was: AttributeError: 'module' object has no attribute 'Client'[0m
+2018-06-27 17:38:21,287 p=31403 u=root |  [0;31mfailed: [localhost] => (item=1) => {"failed": true, "item": "1", "parsed": false}[0m
+2018-06-27 17:38:21,289 p=31403 u=root |  [0;31mAn exception occurred during task execution. To see the full traceback, use -vvv. The error was: AttributeError: 'module' object has no attribute 'Client'[0m
+2018-06-27 17:38:21,289 p=31403 u=root |  [0;31mfailed: [localhost] => (item=2) => {"failed": true, "item": "2", "parsed": false}[0m
+2018-06-27 17:38:21,291 p=31403 u=root |  [0;31mAn exception occurred during task execution. To see the full traceback, use -vvv. The error was: AttributeError: 'module' object has no attribute 'Client'[0m
+2018-06-27 17:38:21,291 p=31403 u=root |  [0;31mfailed: [localhost] => (item=3) => {"failed": true, "item": "3", "parsed": false}[0m
+2018-06-27 17:38:21,293 p=31403 u=root |  [0;31mAn exception occurred during task execution. To see the full traceback, use -vvv. The error was: AttributeError: 'module' object has no attribute 'Client'[0m
+2018-06-27 17:38:21,293 p=31403 u=root |  [0;31mfailed: [localhost] => (item=4) => {"failed": true, "item": "4", "parsed": false}[0m
+2018-06-27 17:38:21,294 p=31403 u=root |  [0;31mAn exception occurred during task execution. To see the full traceback, use -vvv. The error was: AttributeError: 'module' object has no attribute 'Client'[0m
+2018-06-27 17:38:21,294 p=31403 u=root |  [0;31mfailed: [localhost] => (item=5) => {"failed": true, "item": "5", "parsed": false}[0m
+2018-06-27 17:38:21,295 p=31403 u=root |  PLAY RECAP *********************************************************************
+2018-06-27 17:38:21,295 p=31403 u=root |  localhost                  : ok=1    changed=0    unreachable=0    failed=1   
+2018-06-27 17:44:07,763 p=31519 u=root |  PLAY [Demo use of ansible docker modules] **************************************
+2018-06-27 17:44:07,772 p=31519 u=root |  TASK [setup] *******************************************************************
+2018-06-27 17:44:08,338 p=31519 u=root |  [0;32mok: [localhost][0m
+2018-06-27 17:44:08,342 p=31519 u=root |  TASK [start Ubuntu container] **************************************************
+2018-06-27 17:44:09,041 p=31519 u=root |  [0;31mAn exception occurred during task execution. To see the full traceback, use -vvv. The error was: AttributeError: 'module' object has no attribute 'Client'[0m
+2018-06-27 17:44:09,041 p=31519 u=root |  [0;31mfailed: [localhost] => (item=1) => {"failed": true, "item": "1", "parsed": false}[0m
+2018-06-27 17:44:09,043 p=31519 u=root |  [0;31mAn exception occurred during task execution. To see the full traceback, use -vvv. The error was: AttributeError: 'module' object has no attribute 'Client'[0m
+2018-06-27 17:44:09,043 p=31519 u=root |  [0;31mfailed: [localhost] => (item=2) => {"failed": true, "item": "2", "parsed": false}[0m
+2018-06-27 17:44:09,045 p=31519 u=root |  [0;31mAn exception occurred during task execution. To see the full traceback, use -vvv. The error was: AttributeError: 'module' object has no attribute 'Client'[0m
+2018-06-27 17:44:09,046 p=31519 u=root |  [0;31mfailed: [localhost] => (item=3) => {"failed": true, "item": "3", "parsed": false}[0m
+2018-06-27 17:44:09,048 p=31519 u=root |  [0;31mAn exception occurred during task execution. To see the full traceback, use -vvv. The error was: AttributeError: 'module' object has no attribute 'Client'[0m
+2018-06-27 17:44:09,048 p=31519 u=root |  [0;31mfailed: [localhost] => (item=4) => {"failed": true, "item": "4", "parsed": false}[0m
+2018-06-27 17:44:09,049 p=31519 u=root |  [0;31mAn exception occurred during task execution. To see the full traceback, use -vvv. The error was: AttributeError: 'module' object has no attribute 'Client'[0m
+2018-06-27 17:44:09,049 p=31519 u=root |  [0;31mfailed: [localhost] => (item=5) => {"failed": true, "item": "5", "parsed": false}[0m
+2018-06-27 17:44:09,050 p=31519 u=root |  PLAY RECAP *********************************************************************
+2018-06-27 17:44:09,050 p=31519 u=root |  localhost                  : ok=1    changed=0    unreachable=0    failed=1   
+2018-06-27 17:45:00,153 p=31606 u=root |  Using /root/DevOps/Day3/Playbooks/ansible.cfg as config file
+2018-06-27 17:45:00,185 p=31606 u=root |  [0;34mLoaded callback default of type stdout, v2.0[0m
+2018-06-27 17:45:00,190 p=31606 u=root |  [0;34m1 plays in start_containers.yml[0m
+2018-06-27 17:45:00,195 p=31606 u=root |  PLAY [Demo use of ansible docker modules] **************************************
+2018-06-27 17:45:00,204 p=31606 u=root |  TASK [setup] *******************************************************************
+2018-06-27 17:45:00,218 p=31606 u=root |  [0;34mESTABLISH LOCAL CONNECTION FOR USER: root[0m
+2018-06-27 17:45:00,218 p=31606 u=root |  [0;34mlocalhost EXEC mkdir -p "$( echo ~/mytemp/ansible-tmp-1530101700.22-221614512883302 )" && echo "$( echo ~/mytemp/ansible-tmp-1530101700.22-221614512883302 )"[0m
+2018-06-27 17:45:00,225 p=31606 u=root |  [0;34mlocalhost PUT /tmp/tmpHUqhj5 TO /root/mytemp/ansible-tmp-1530101700.22-221614512883302/setup[0m
+2018-06-27 17:45:00,225 p=31606 u=root |  [0;34mlocalhost EXEC LANG=en_IN LC_ALL=en_IN LC_MESSAGES=en_IN /usr/bin/python /root/mytemp/ansible-tmp-1530101700.22-221614512883302/setup; rm -rf "/root/mytemp/ansible-tmp-1530101700.22-221614512883302/" > /dev/null 2>&1[0m
+2018-06-27 17:45:00,768 p=31606 u=root |  [0;32mok: [localhost][0m
+2018-06-27 17:45:00,772 p=31606 u=root |  TASK [start Ubuntu container] **************************************************
+2018-06-27 17:45:00,772 p=31606 u=root |  [1;30mtask path: /root/DevOps/Day3/Playbooks/start_containers.yml:4[0m
+2018-06-27 17:45:00,813 p=31606 u=root |  [0;34mESTABLISH LOCAL CONNECTION FOR USER: root[0m
+2018-06-27 17:45:00,813 p=31606 u=root |  [0;34mlocalhost EXEC mkdir -p "$( echo ~/mytemp/ansible-tmp-1530101700.81-155661739860047 )" && echo "$( echo ~/mytemp/ansible-tmp-1530101700.81-155661739860047 )"[0m
+2018-06-27 17:45:00,819 p=31606 u=root |  [0;34mlocalhost PUT /tmp/tmpLfzMsO TO /root/mytemp/ansible-tmp-1530101700.81-155661739860047/docker[0m
+2018-06-27 17:45:00,820 p=31606 u=root |  [0;34mlocalhost EXEC LANG=en_IN LC_ALL=en_IN LC_MESSAGES=en_IN /usr/bin/python /root/mytemp/ansible-tmp-1530101700.81-155661739860047/docker; rm -rf "/root/mytemp/ansible-tmp-1530101700.81-155661739860047/" > /dev/null 2>&1[0m
+2018-06-27 17:45:00,946 p=31606 u=root |  [0;34mlocalhost EXEC mkdir -p "$( echo ~/mytemp/ansible-tmp-1530101700.95-189886600679468 )" && echo "$( echo ~/mytemp/ansible-tmp-1530101700.95-189886600679468 )"[0m
+2018-06-27 17:45:00,953 p=31606 u=root |  [0;34mlocalhost PUT /tmp/tmpB15835 TO /root/mytemp/ansible-tmp-1530101700.95-189886600679468/docker[0m
+2018-06-27 17:45:00,954 p=31606 u=root |  [0;34mlocalhost EXEC LANG=en_IN LC_ALL=en_IN LC_MESSAGES=en_IN /usr/bin/python /root/mytemp/ansible-tmp-1530101700.95-189886600679468/docker; rm -rf "/root/mytemp/ansible-tmp-1530101700.95-189886600679468/" > /dev/null 2>&1[0m
+2018-06-27 17:45:01,082 p=31606 u=root |  [0;34mlocalhost EXEC mkdir -p "$( echo ~/mytemp/ansible-tmp-1530101701.08-97773004821787 )" && echo "$( echo ~/mytemp/ansible-tmp-1530101701.08-97773004821787 )"[0m
+2018-06-27 17:45:01,088 p=31606 u=root |  [0;34mlocalhost PUT /tmp/tmpzvTRDv TO /root/mytemp/ansible-tmp-1530101701.08-97773004821787/docker[0m
+2018-06-27 17:45:01,088 p=31606 u=root |  [0;34mlocalhost EXEC LANG=en_IN LC_ALL=en_IN LC_MESSAGES=en_IN /usr/bin/python /root/mytemp/ansible-tmp-1530101701.08-97773004821787/docker; rm -rf "/root/mytemp/ansible-tmp-1530101701.08-97773004821787/" > /dev/null 2>&1[0m
+2018-06-27 17:45:01,215 p=31606 u=root |  [0;34mlocalhost EXEC mkdir -p "$( echo ~/mytemp/ansible-tmp-1530101701.21-274725381956097 )" && echo "$( echo ~/mytemp/ansible-tmp-1530101701.21-274725381956097 )"[0m
+2018-06-27 17:45:01,220 p=31606 u=root |  [0;34mlocalhost PUT /tmp/tmppl7mA0 TO /root/mytemp/ansible-tmp-1530101701.21-274725381956097/docker[0m
+2018-06-27 17:45:01,220 p=31606 u=root |  [0;34mlocalhost EXEC LANG=en_IN LC_ALL=en_IN LC_MESSAGES=en_IN /usr/bin/python /root/mytemp/ansible-tmp-1530101701.21-274725381956097/docker; rm -rf "/root/mytemp/ansible-tmp-1530101701.21-274725381956097/" > /dev/null 2>&1[0m
+2018-06-27 17:45:01,344 p=31606 u=root |  [0;34mlocalhost EXEC mkdir -p "$( echo ~/mytemp/ansible-tmp-1530101701.34-149479911244757 )" && echo "$( echo ~/mytemp/ansible-tmp-1530101701.34-149479911244757 )"[0m
+2018-06-27 17:45:01,350 p=31606 u=root |  [0;34mlocalhost PUT /tmp/tmpfdPdRR TO /root/mytemp/ansible-tmp-1530101701.34-149479911244757/docker[0m
+2018-06-27 17:45:01,351 p=31606 u=root |  [0;34mlocalhost EXEC LANG=en_IN LC_ALL=en_IN LC_MESSAGES=en_IN /usr/bin/python /root/mytemp/ansible-tmp-1530101701.34-149479911244757/docker; rm -rf "/root/mytemp/ansible-tmp-1530101701.34-149479911244757/" > /dev/null 2>&1[0m
+2018-06-27 17:45:01,474 p=31606 u=root |  [0;31mAn exception occurred during task execution. The full traceback is:
+Traceback (most recent call last):
+  File "/root/mytemp/ansible-tmp-1530101700.81-155661739860047/docker", line 3700, in <module>
+    main()
+  File "/root/mytemp/ansible-tmp-1530101700.81-155661739860047/docker", line 1704, in main
+    manager = DockerManager(module)
+  File "/root/mytemp/ansible-tmp-1530101700.81-155661739860047/docker", line 747, in __init__
+    self.client = docker.Client(base_url=docker_url,
+AttributeError: 'module' object has no attribute 'Client'
+[0m
+2018-06-27 17:45:01,475 p=31606 u=root |  [0;31mfailed: [localhost] => (item=1) => {"failed": true, "invocation": {"module_name": "docker"}, "item": "1", "parsed": false}[0m
+2018-06-27 17:45:01,476 p=31606 u=root |  [0;31mAn exception occurred during task execution. The full traceback is:
+Traceback (most recent call last):
+  File "/root/mytemp/ansible-tmp-1530101700.95-189886600679468/docker", line 3700, in <module>
+    main()
+  File "/root/mytemp/ansible-tmp-1530101700.95-189886600679468/docker", line 1704, in main
+    manager = DockerManager(module)
+  File "/root/mytemp/ansible-tmp-1530101700.95-189886600679468/docker", line 747, in __init__
+    self.client = docker.Client(base_url=docker_url,
+AttributeError: 'module' object has no attribute 'Client'
+[0m
+2018-06-27 17:45:01,476 p=31606 u=root |  [0;31mfailed: [localhost] => (item=2) => {"failed": true, "invocation": {"module_name": "docker"}, "item": "2", "parsed": false}[0m
+2018-06-27 17:45:01,478 p=31606 u=root |  [0;31mAn exception occurred during task execution. The full traceback is:
+Traceback (most recent call last):
+  File "/root/mytemp/ansible-tmp-1530101701.08-97773004821787/docker", line 3700, in <module>
+    main()
+  File "/root/mytemp/ansible-tmp-1530101701.08-97773004821787/docker", line 1704, in main
+    manager = DockerManager(module)
+  File "/root/mytemp/ansible-tmp-1530101701.08-97773004821787/docker", line 747, in __init__
+    self.client = docker.Client(base_url=docker_url,
+AttributeError: 'module' object has no attribute 'Client'
+[0m
+2018-06-27 17:45:01,478 p=31606 u=root |  [0;31mfailed: [localhost] => (item=3) => {"failed": true, "invocation": {"module_name": "docker"}, "item": "3", "parsed": false}[0m
+2018-06-27 17:45:01,480 p=31606 u=root |  [0;31mAn exception occurred during task execution. The full traceback is:
+Traceback (most recent call last):
+  File "/root/mytemp/ansible-tmp-1530101701.21-274725381956097/docker", line 3700, in <module>
+    main()
+  File "/root/mytemp/ansible-tmp-1530101701.21-274725381956097/docker", line 1704, in main
+    manager = DockerManager(module)
+  File "/root/mytemp/ansible-tmp-1530101701.21-274725381956097/docker", line 747, in __init__
+    self.client = docker.Client(base_url=docker_url,
+AttributeError: 'module' object has no attribute 'Client'
+[0m
+2018-06-27 17:45:01,480 p=31606 u=root |  [0;31mfailed: [localhost] => (item=4) => {"failed": true, "invocation": {"module_name": "docker"}, "item": "4", "parsed": false}[0m
+2018-06-27 17:45:01,482 p=31606 u=root |  [0;31mAn exception occurred during task execution. The full traceback is:
+Traceback (most recent call last):
+  File "/root/mytemp/ansible-tmp-1530101701.34-149479911244757/docker", line 3700, in <module>
+    main()
+  File "/root/mytemp/ansible-tmp-1530101701.34-149479911244757/docker", line 1704, in main
+    manager = DockerManager(module)
+  File "/root/mytemp/ansible-tmp-1530101701.34-149479911244757/docker", line 747, in __init__
+    self.client = docker.Client(base_url=docker_url,
+AttributeError: 'module' object has no attribute 'Client'
+[0m
+2018-06-27 17:45:01,482 p=31606 u=root |  [0;31mfailed: [localhost] => (item=5) => {"failed": true, "invocation": {"module_name": "docker"}, "item": "5", "parsed": false}[0m
+2018-06-27 17:45:01,483 p=31606 u=root |  PLAY RECAP *********************************************************************
+2018-06-27 17:45:01,483 p=31606 u=root |  localhost                  : ok=1    changed=0    unreachable=0    failed=1   
+2018-06-27 17:46:42,803 p=31717 u=root |  PLAY [Demo use of ansible docker modules] **************************************
+2018-06-27 17:46:42,812 p=31717 u=root |  TASK [setup] *******************************************************************
+2018-06-27 17:46:43,358 p=31717 u=root |  [0;32mok: [localhost][0m
+2018-06-27 17:46:43,361 p=31717 u=root |  TASK [start Ubuntu container] **************************************************
+2018-06-27 17:46:44,045 p=31717 u=root |  [0;31mAn exception occurred during task execution. To see the full traceback, use -vvv. The error was: AttributeError: 'module' object has no attribute 'Client'[0m
+2018-06-27 17:46:44,045 p=31717 u=root |  [0;31mfailed: [localhost] => (item=1) => {"failed": true, "item": "1", "parsed": false}[0m
+2018-06-27 17:46:44,047 p=31717 u=root |  [0;31mAn exception occurred during task execution. To see the full traceback, use -vvv. The error was: AttributeError: 'module' object has no attribute 'Client'[0m
+2018-06-27 17:46:44,047 p=31717 u=root |  [0;31mfailed: [localhost] => (item=2) => {"failed": true, "item": "2", "parsed": false}[0m
+2018-06-27 17:46:44,048 p=31717 u=root |  [0;31mAn exception occurred during task execution. To see the full traceback, use -vvv. The error was: AttributeError: 'module' object has no attribute 'Client'[0m
+2018-06-27 17:46:44,048 p=31717 u=root |  [0;31mfailed: [localhost] => (item=3) => {"failed": true, "item": "3", "parsed": false}[0m
+2018-06-27 17:46:44,050 p=31717 u=root |  [0;31mAn exception occurred during task execution. To see the full traceback, use -vvv. The error was: AttributeError: 'module' object has no attribute 'Client'[0m
+2018-06-27 17:46:44,050 p=31717 u=root |  [0;31mfailed: [localhost] => (item=4) => {"failed": true, "item": "4", "parsed": false}[0m
+2018-06-27 17:46:44,051 p=31717 u=root |  [0;31mAn exception occurred during task execution. To see the full traceback, use -vvv. The error was: AttributeError: 'module' object has no attribute 'Client'[0m
+2018-06-27 17:46:44,051 p=31717 u=root |  [0;31mfailed: [localhost] => (item=5) => {"failed": true, "item": "5", "parsed": false}[0m
+2018-06-27 17:46:44,052 p=31717 u=root |  PLAY RECAP *********************************************************************
+2018-06-27 17:46:44,052 p=31717 u=root |  localhost                  : ok=1    changed=0    unreachable=0    failed=1   
+2018-06-27 17:46:53,866 p=31802 u=root |  Using /root/DevOps/Day3/Playbooks/ansible.cfg as config file
+2018-06-27 17:46:53,897 p=31802 u=root |  [0;34mLoaded callback default of type stdout, v2.0[0m
+2018-06-27 17:46:53,902 p=31802 u=root |  [0;34m1 plays in start_containers.yml[0m
+2018-06-27 17:46:53,908 p=31802 u=root |  PLAY [Demo use of ansible docker modules] **************************************
+2018-06-27 17:46:53,916 p=31802 u=root |  TASK [setup] *******************************************************************
+2018-06-27 17:46:53,931 p=31802 u=root |  [0;34mESTABLISH LOCAL CONNECTION FOR USER: root[0m
+2018-06-27 17:46:53,931 p=31802 u=root |  [0;34mlocalhost EXEC mkdir -p "$( echo ~/mytemp/ansible-tmp-1530101813.93-62451827195770 )" && echo "$( echo ~/mytemp/ansible-tmp-1530101813.93-62451827195770 )"[0m
+2018-06-27 17:46:53,937 p=31802 u=root |  [0;34mlocalhost PUT /tmp/tmpYAHw7f TO /root/mytemp/ansible-tmp-1530101813.93-62451827195770/setup[0m
+2018-06-27 17:46:53,938 p=31802 u=root |  [0;34mlocalhost EXEC LANG=en_IN LC_ALL=en_IN LC_MESSAGES=en_IN /usr/bin/python /root/mytemp/ansible-tmp-1530101813.93-62451827195770/setup; rm -rf "/root/mytemp/ansible-tmp-1530101813.93-62451827195770/" > /dev/null 2>&1[0m
+2018-06-27 17:46:54,474 p=31802 u=root |  [0;32mok: [localhost][0m
+2018-06-27 17:46:54,478 p=31802 u=root |  TASK [start Ubuntu container] **************************************************
+2018-06-27 17:46:54,478 p=31802 u=root |  [1;30mtask path: /root/DevOps/Day3/Playbooks/start_containers.yml:4[0m
+2018-06-27 17:46:54,520 p=31802 u=root |  [0;34mESTABLISH LOCAL CONNECTION FOR USER: root[0m
+2018-06-27 17:46:54,520 p=31802 u=root |  [0;34mlocalhost EXEC mkdir -p "$( echo ~/mytemp/ansible-tmp-1530101814.52-162941130556389 )" && echo "$( echo ~/mytemp/ansible-tmp-1530101814.52-162941130556389 )"[0m
+2018-06-27 17:46:54,527 p=31802 u=root |  [0;34mlocalhost PUT /tmp/tmpNAFeU7 TO /root/mytemp/ansible-tmp-1530101814.52-162941130556389/docker[0m
+2018-06-27 17:46:54,528 p=31802 u=root |  [0;34mlocalhost EXEC LANG=en_IN LC_ALL=en_IN LC_MESSAGES=en_IN /usr/bin/python /root/mytemp/ansible-tmp-1530101814.52-162941130556389/docker; rm -rf "/root/mytemp/ansible-tmp-1530101814.52-162941130556389/" > /dev/null 2>&1[0m
+2018-06-27 17:46:54,653 p=31802 u=root |  [0;34mlocalhost EXEC mkdir -p "$( echo ~/mytemp/ansible-tmp-1530101814.65-221911483689853 )" && echo "$( echo ~/mytemp/ansible-tmp-1530101814.65-221911483689853 )"[0m
+2018-06-27 17:46:54,660 p=31802 u=root |  [0;34mlocalhost PUT /tmp/tmpDhjUfM TO /root/mytemp/ansible-tmp-1530101814.65-221911483689853/docker[0m
+2018-06-27 17:46:54,660 p=31802 u=root |  [0;34mlocalhost EXEC LANG=en_IN LC_ALL=en_IN LC_MESSAGES=en_IN /usr/bin/python /root/mytemp/ansible-tmp-1530101814.65-221911483689853/docker; rm -rf "/root/mytemp/ansible-tmp-1530101814.65-221911483689853/" > /dev/null 2>&1[0m
+2018-06-27 17:46:54,789 p=31802 u=root |  [0;34mlocalhost EXEC mkdir -p "$( echo ~/mytemp/ansible-tmp-1530101814.79-186858484765295 )" && echo "$( echo ~/mytemp/ansible-tmp-1530101814.79-186858484765295 )"[0m
+2018-06-27 17:46:54,794 p=31802 u=root |  [0;34mlocalhost PUT /tmp/tmp_jHGtc TO /root/mytemp/ansible-tmp-1530101814.79-186858484765295/docker[0m
+2018-06-27 17:46:54,795 p=31802 u=root |  [0;34mlocalhost EXEC LANG=en_IN LC_ALL=en_IN LC_MESSAGES=en_IN /usr/bin/python /root/mytemp/ansible-tmp-1530101814.79-186858484765295/docker; rm -rf "/root/mytemp/ansible-tmp-1530101814.79-186858484765295/" > /dev/null 2>&1[0m
+2018-06-27 17:46:54,923 p=31802 u=root |  [0;34mlocalhost EXEC mkdir -p "$( echo ~/mytemp/ansible-tmp-1530101814.92-38413126403583 )" && echo "$( echo ~/mytemp/ansible-tmp-1530101814.92-38413126403583 )"[0m
+2018-06-27 17:46:54,929 p=31802 u=root |  [0;34mlocalhost PUT /tmp/tmpV7q16Q TO /root/mytemp/ansible-tmp-1530101814.92-38413126403583/docker[0m
+2018-06-27 17:46:54,929 p=31802 u=root |  [0;34mlocalhost EXEC LANG=en_IN LC_ALL=en_IN LC_MESSAGES=en_IN /usr/bin/python /root/mytemp/ansible-tmp-1530101814.92-38413126403583/docker; rm -rf "/root/mytemp/ansible-tmp-1530101814.92-38413126403583/" > /dev/null 2>&1[0m
+2018-06-27 17:46:55,056 p=31802 u=root |  [0;34mlocalhost EXEC mkdir -p "$( echo ~/mytemp/ansible-tmp-1530101815.06-4259003267598 )" && echo "$( echo ~/mytemp/ansible-tmp-1530101815.06-4259003267598 )"[0m
+2018-06-27 17:46:55,062 p=31802 u=root |  [0;34mlocalhost PUT /tmp/tmpS5Vhjx TO /root/mytemp/ansible-tmp-1530101815.06-4259003267598/docker[0m
+2018-06-27 17:46:55,062 p=31802 u=root |  [0;34mlocalhost EXEC LANG=en_IN LC_ALL=en_IN LC_MESSAGES=en_IN /usr/bin/python /root/mytemp/ansible-tmp-1530101815.06-4259003267598/docker; rm -rf "/root/mytemp/ansible-tmp-1530101815.06-4259003267598/" > /dev/null 2>&1[0m
+2018-06-27 17:46:55,184 p=31802 u=root |  [0;31mAn exception occurred during task execution. The full traceback is:
+Traceback (most recent call last):
+  File "/root/mytemp/ansible-tmp-1530101814.52-162941130556389/docker", line 3700, in <module>
+    main()
+  File "/root/mytemp/ansible-tmp-1530101814.52-162941130556389/docker", line 1704, in main
+    manager = DockerManager(module)
+  File "/root/mytemp/ansible-tmp-1530101814.52-162941130556389/docker", line 747, in __init__
+    self.client = docker.Client(base_url=docker_url,
+AttributeError: 'module' object has no attribute 'Client'
+[0m
+2018-06-27 17:46:55,184 p=31802 u=root |  [0;31mfailed: [localhost] => (item=1) => {"failed": true, "invocation": {"module_name": "docker"}, "item": "1", "parsed": false}[0m
+2018-06-27 17:46:55,186 p=31802 u=root |  [0;31mAn exception occurred during task execution. The full traceback is:
+Traceback (most recent call last):
+  File "/root/mytemp/ansible-tmp-1530101814.65-221911483689853/docker", line 3700, in <module>
+    main()
+  File "/root/mytemp/ansible-tmp-1530101814.65-221911483689853/docker", line 1704, in main
+    manager = DockerManager(module)
+  File "/root/mytemp/ansible-tmp-1530101814.65-221911483689853/docker", line 747, in __init__
+    self.client = docker.Client(base_url=docker_url,
+AttributeError: 'module' object has no attribute 'Client'
+[0m
+2018-06-27 17:46:55,186 p=31802 u=root |  [0;31mfailed: [localhost] => (item=2) => {"failed": true, "invocation": {"module_name": "docker"}, "item": "2", "parsed": false}[0m
+2018-06-27 17:46:55,189 p=31802 u=root |  [0;31mAn exception occurred during task execution. The full traceback is:
+Traceback (most recent call last):
+  File "/root/mytemp/ansible-tmp-1530101814.79-186858484765295/docker", line 3700, in <module>
+    main()
+  File "/root/mytemp/ansible-tmp-1530101814.79-186858484765295/docker", line 1704, in main
+    manager = DockerManager(module)
+  File "/root/mytemp/ansible-tmp-1530101814.79-186858484765295/docker", line 747, in __init__
+    self.client = docker.Client(base_url=docker_url,
+AttributeError: 'module' object has no attribute 'Client'
+[0m
+2018-06-27 17:46:55,189 p=31802 u=root |  [0;31mfailed: [localhost] => (item=3) => {"failed": true, "invocation": {"module_name": "docker"}, "item": "3", "parsed": false}[0m
+2018-06-27 17:46:55,191 p=31802 u=root |  [0;31mAn exception occurred during task execution. The full traceback is:
+Traceback (most recent call last):
+  File "/root/mytemp/ansible-tmp-1530101814.92-38413126403583/docker", line 3700, in <module>
+    main()
+  File "/root/mytemp/ansible-tmp-1530101814.92-38413126403583/docker", line 1704, in main
+    manager = DockerManager(module)
+  File "/root/mytemp/ansible-tmp-1530101814.92-38413126403583/docker", line 747, in __init__
+    self.client = docker.Client(base_url=docker_url,
+AttributeError: 'module' object has no attribute 'Client'
+[0m
+2018-06-27 17:46:55,191 p=31802 u=root |  [0;31mfailed: [localhost] => (item=4) => {"failed": true, "invocation": {"module_name": "docker"}, "item": "4", "parsed": false}[0m
+2018-06-27 17:46:55,193 p=31802 u=root |  [0;31mAn exception occurred during task execution. The full traceback is:
+Traceback (most recent call last):
+  File "/root/mytemp/ansible-tmp-1530101815.06-4259003267598/docker", line 3700, in <module>
+    main()
+  File "/root/mytemp/ansible-tmp-1530101815.06-4259003267598/docker", line 1704, in main
+    manager = DockerManager(module)
+  File "/root/mytemp/ansible-tmp-1530101815.06-4259003267598/docker", line 747, in __init__
+    self.client = docker.Client(base_url=docker_url,
+AttributeError: 'module' object has no attribute 'Client'
+[0m
+2018-06-27 17:46:55,193 p=31802 u=root |  [0;31mfailed: [localhost] => (item=5) => {"failed": true, "invocation": {"module_name": "docker"}, "item": "5", "parsed": false}[0m
+2018-06-27 17:46:55,194 p=31802 u=root |  PLAY RECAP *********************************************************************
+2018-06-27 17:46:55,194 p=31802 u=root |  localhost                  : ok=1    changed=0    unreachable=0    failed=1   
+2018-06-27 17:47:42,292 p=31899 u=root |  PLAY [Demo use of ansible docker modules] **************************************
+2018-06-27 17:47:42,301 p=31899 u=root |  TASK [setup] *******************************************************************
+2018-06-27 17:47:42,861 p=31899 u=root |  [0;32mok: [localhost][0m
+2018-06-27 17:47:42,864 p=31899 u=root |  TASK [start Ubuntu container] **************************************************
+2018-06-27 17:47:50,874 p=31899 u=root |  [0;33mchanged: [localhost] => (item=1)[0m
+2018-06-27 17:47:50,877 p=31899 u=root |  [0;33mchanged: [localhost] => (item=2)[0m
+2018-06-27 17:47:50,881 p=31899 u=root |  [0;33mchanged: [localhost] => (item=3)[0m
+2018-06-27 17:47:50,884 p=31899 u=root |  [0;33mchanged: [localhost] => (item=4)[0m
+2018-06-27 17:47:50,888 p=31899 u=root |  [0;33mchanged: [localhost] => (item=5)[0m
+2018-06-27 17:47:50,890 p=31899 u=root |  TASK [start centos container] **************************************************
+2018-06-27 17:47:58,412 p=31899 u=root |  [0;33mchanged: [localhost] => (item=1)[0m
+2018-06-27 17:47:58,416 p=31899 u=root |  [0;33mchanged: [localhost] => (item=2)[0m
+2018-06-27 17:47:58,419 p=31899 u=root |  [0;33mchanged: [localhost] => (item=3)[0m
+2018-06-27 17:47:58,422 p=31899 u=root |  [0;33mchanged: [localhost] => (item=4)[0m
+2018-06-27 17:47:58,426 p=31899 u=root |  [0;33mchanged: [localhost] => (item=5)[0m
+2018-06-27 17:47:58,428 p=31899 u=root |  PLAY RECAP *********************************************************************
+2018-06-27 17:47:58,428 p=31899 u=root |  localhost                  : ok=3    changed=2    unreachable=0    failed=0   

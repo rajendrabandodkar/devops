@@ -1,0 +1,4 @@
+[all]
+Server1 ansible_user=root ansible:_host=localhost ansible_port=2000 ansible_private_key_file=/root/.ssh/id_rsa
+
+Server2 ansible_user=root ansible:_host=localhost ansible_port=3000 ansible_private_key_file=/root/.ssh/id_rsa

@@ -1,0 +1,3 @@
+- greeting_msg: Devops
+- automation_tool: Ansible
+- provisioner_tool: Docker
